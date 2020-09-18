@@ -9,6 +9,8 @@ A heavy focus is set on cognates and collocations for each word family, not just
 
 There might be some manual modifications from time to time but my implementation of this port is rather ugly, making adjustments cumbersome.
 
+You can easily import this deck via either the avilable `AVL.apkg` or CrowdAnki. (Information for the latter see below)
+
 I'm using Anki as my vocab program with the Addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) to export in a diff-friendly json-file. You can easily add it to yout Anki setup via the code given on [it's AnkiWeb page](https://ankiweb.net/shared/info/1788670778).
 
 ## License
