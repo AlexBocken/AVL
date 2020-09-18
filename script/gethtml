@@ -1,0 +1,11 @@
+#!/bin/bash
+[ -f cards.csv ] && rm cards.csv
+touch cards.csv
+cat avl.csv | while read line || [[ -n $line ]];
+do
+	no="$(echo "$line" | awk 'BEGIN{FS = "\t" } {print $1}' )"
+	word="$(echo "$line" | awk 'BEGIN{FS = "\t" } {print $2}' )"
+	meaning_clean="$(curl --no-progress-meter http://www.ozdic.com/collocation-dictionary/"$word" | sed '6,35d; 37,53d' | tac | sed '4,30d' | tac | tr '\n' ' ' | tr '\t' ' ')"
+	printf "card:%s\t(%s)\n" "$no" "$word"
+	printf "%s;\"%s\";\"%s\"\n" "$no" "$word" "$meaning_clean" >> cards.csv
+done
