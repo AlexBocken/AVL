@@ -1,5 +1,7 @@
 # AVL
 
+<img src="/../assets/total_front.png" alt="Example of front of card" width="49%"> <img src="/../assets/total_back.png" alt="Example of back of card" width="49%">
+
 This is a vocabulary list for Anki derived from the Advanced Vocabulary List (AVL). It includes no. 201 to no. 520.
 
 This vocab list is for the purpose of stuyding these words for my course [Advanced English for academic purposes C1-C2](https://www.sprachenzentrum.uzh.ch/de/angebot/Kursdetail.html?sprachid=sprache:englisch&targetgpid=zielgruppe:studentETHZ&kursnr=217424a3-e447-4531-9d39-3b04ea63006e) at university.
