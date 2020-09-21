@@ -1,11 +1,129 @@
-#!/bin/bash
+#!/bin/zsh
 [ -f cards.csv ] && rm cards.csv
 touch cards.csv
+
+handle_cleaned_html(){
+## Handling of multiple meanings
+	meaning_clean_func="$1"
+	no_func="$2"
+	word_func="$3"
+	pof_func="$4"
+	if echo "$meaning_clean_func" | grep -q "SUP"; then
+		count_func="$(echo "$meaning_clean_func" | grep -c "SUP")"
+		echo "Found $count_func multiple meanings for the word $word_func ($pof_func)"
+
+		for j in {1..$count_func}; do
+			meaning="$( echo "$meaning_clean_func" | grep "<SUP> $j" | perl -pe "s|<P> <SUP> $j </SUP> <TT> (.*?) </TT> </P>|\1|" )"
+			echo MEANING:
+			echo "$meaning"
+			echo DONE
+			[ -f categoriestmp ] && rm categoriestmp
+			touch categoriestmp
+			[ -f backofcardtmp ] && rm backofcardtmp
+			touch backofcardtmp
+			printout=false
+
+			while IFS= read -r line; do
+				if [ $printout = true ]; then
+					if echo "$line" | grep -q "<P> <SUP> $(( j + 1 )) </SUP>" ; then
+						printout=false
+					else
+						echo "$line" >> backofcardtmp
+						if echo "$line" | grep -q '<P> <U>'; then
+							echo "$line" | perl -pe "s|<P> <U> (.*?) </U>(.*?)$|<P> <U> \1 </U> </P>|" >> categoriestmp
+						fi
+					fi
+				fi
+				if echo "$line" | grep -q "SUP"; then
+					if echo "$line" |  grep -q "<P> <SUP> $j </SUP>"; then
+						printout=true
+					fi
+				fi
+			done <<< $(echo "$meaning_clean_func")
+			echo BACKSIDE:
+			cat backofcardtmp
+			echo CATEGORIES
+			cat categoriestmp
+			echo DONE
+			categories="$(cat categoriestmp | tr '\n' ' ')"
+			backside="$(cat backofcardtmp | tr '\n' ' ' )"
+			printf "%s.%s;\"%s\";\"%s\";\"%s\";\"%s\";\"%s\"\n" "$no_func" "$j" "$word_func" "$meaning" "$categories" "$backside" "$pof_func" >> cards.csv
+		done
+	else
+		echo "Found only one meaning for the word $word_func ($pof_func)"
+		meaning="" #ozdic only provides meaning if there are different ones and the collocations for those different meanings differ.
+		[ -f categoriestmp ] && rm categoriestmp
+		touch categoriestmp
+		while IFS= read -r line; do
+			#echo current line:
+			#echo "$line"
+			echo "$line" | grep "<P> <U> " | perl -pe "s|<P> <U> (.*?) </U>(.*?)$|<P> <U> \1 </U> </P>|" >> categoriestmp
+		done <<< $(echo "$meaning_clean")
+		backside="$( echo "$meaning_clean_func" | tr '\n' ' ')"
+		#cat categoriestmp
+		categories="$(cat categoriestmp | tr '\n' ' ' )"
+		printf "%s;\"%s\";\"%s\";\"%s\";\"%s\";\"%s\"\n" "$no_func" "$word_func" "$meaning" "$categories" "$backside" "$pof_func" >> cards.csv
+
+	fi
+	#printf "%s;\"%s\";\"%s\"\n" "$no" "$word" "$meaning_clean" >> cards.csv
+}
+
+
+
 cat avl.csv | while read line || [[ -n $line ]];
 do
 	no="$(echo "$line" | awk 'BEGIN{FS = "\t" } {print $1}' )"
 	word="$(echo "$line" | awk 'BEGIN{FS = "\t" } {print $2}' )"
-	meaning_clean="$(curl --no-progress-meter http://www.ozdic.com/collocation-dictionary/"$word" | sed '6,35d; 38,48d' | tac | sed '6,30d' | tac | tr '\n' ' ' | tr '\t' ' ')"
 	printf "card:%s\t(%s)\n" "$no" "$word"
-	printf "%s;\"%s\";\"%s\"\n" "$no" "$word" "$meaning_clean" >> cards.csv
+	meaning_clean="$(curl --no-progress-meter http://www.ozdic.com/collocation-dictionary/"$word" | sed '6,35d; 38,48d' | tac | sed '6,30d' | tac | tr '\t' ' ' | tr -d '\r')"
+	#echo MEANINGCLEAN1:
+	#echo "$meaning_clean"
+	#echo DONE
+	echo "Checking whether there are multiple parts of speech..."
+	pof_count="$(echo "$meaning_clean" | grep -c "<P class=\"word\">" )"
+	if [ $pof_count -gt 1 ]; then
+		echo "$pof_count parts of speech found!"
+		# seperate into multiple "meaning_clean"
+		pofs="$( echo "$meaning_clean" | grep "<DIV class=\"item\"><P class=\"word\"><B>" | perl -pe "s|^.*?<DIV class=\"item\"><P class=\"word\"><B>[a-zA-Z]*? </B><I>([a-zA-Z\.]*?) </I> </P>|\1|g")"
+		#echo "pofs:"
+		#echo "$pofs"
+		pofs="$(printf "%s\nscript" "$pofs" )"
+		for i in {1..$pof_count}; do
+			current_pof=$( echo "$pofs" | sed "${i}q;d") #| sed 's/\./\\./g')
+			next_pof=$(echo "$pofs" | sed "$((i+1))q;d") #| sed 's/\./\\./g')
+			echo current_pof: $current_pof
+			echo next_pof: $next_pof
+			#start="<DIV class=\"item\"><P class=\"word\"><B>$word <\/B><I>$current_pof <\/I> <\/P>"
+			start="$( printf '<DIV class="item"><P class="word"><B>%s </B><I>%s </I> </P>\n' "$word" "$current_pof" )"
+			if [ $i -eq $pof_count ]; then
+				stop="$next_pof"
+				#echo MEANINGCLEAN_LASTPOF:
+				#echo "$meaning_clean"
+				#echo DONE
+			else
+				stop="$( printf '<DIV class="item"><P class="word"><B>%s </B><I>%s </I> </P>\n' "$word" "$next_pof" )"
+			fi
+			meaning_clean_temp="$( echo "$meaning_clean" | sed 's,'"$start"',START,')"
+			meaning_clean_temp="$( echo "$meaning_clean_temp" | sed 's,'"$stop"',STOP,' )"
+			echo MEANINGCLEAN_TEMP:
+			echo "$meaning_clean_temp"
+			echo DONE
+			pof_meaning_clean="$(echo "$meaning_clean_temp" | sed -n '/START/,/STOP/ { /START/n; /STOP/!p }' )"
+			echo POFMEANINGCLEAN
+			echo "$pof_meaning_clean"
+			echo DONE
+
+			notemp="$no"'.'"$i"
+			handle_cleaned_html "$pof_meaning_clean" "$notemp" "$word" "$current_pof"
+		done
+
+	else
+		echo "only one part of speech found"
+		pof="$( echo "$meaning_clean" | grep "<DIV class=\"item\"><P class=\"word\"><B>" | perl -pe "s|^.*?<DIV class=\"item\"><P class=\"word\"><B>[a-zA-Z]*? </B><I>([a-zA-Z\.]*?) </I> </P>|\1|g")"
+		echo POF:"$pof"
+		handle_cleaned_html "$meaning_clean" "$no" "$word" "$pof"
+	fi
+
 done
+
+rm backofcardtmp categoriestmp
