@@ -1,4 +1,8 @@
 #!/bin/zsh
+# This script is just the initial step in porting the avl data to anki
+# It does not work 100% reliable, but it's good enough for me
+# Manual adjustments on the exported data should be expected
+# This script is rather ugly in its Implementation
 [ -f cards.csv ] && rm cards.csv
 touch cards.csv
 

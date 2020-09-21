@@ -20,7 +20,11 @@ This leaves me with 50 words that couldn't be found on ozdic.
 (See the TODO.md for the list of words yet to be added correctly.)
 These will be added manually from time to time over the coming winter semester 2020.
 
-There might be some manual modifications from time to time but my implementation of this port is rather ugly, making adjustments cumbersome.
+### Script
+
+The script I've implemented to rip from ozdic seems to work fine in general, but has a few issues from time to time.
+Expect some weird formatting from time to time.
+These will be fixed over the coming weeks.
 
 ## License
 
