@@ -63,7 +63,7 @@ handle_cleaned_html(){
 			#echo "$line"
 			echo "$line" | grep "<P> <U> " | perl -pe "s|<P> <U> (.*?) </U>(.*?)$|<P> <U> \1 </U> </P>|" >> categoriestmp
 		done <<< $(echo "$meaning_clean")
-		backside="$( echo "$meaning_clean_func" | tr '\n' ' ')"
+		backside="$( echo "$meaning_clean_func"  | grep "<P> <U> " | grep -vF '<DIV class="item"><P class="word"><B>'| tr '\n' ' ')"
 		#cat categoriestmp
 		categories="$(cat categoriestmp | tr '\n' ' ' )"
 		printf "%s;\"%s\";\"%s\";\"%s\";\"%s\";\"%s\"\n" "$no_func" "$word_func" "$meaning" "$categories" "$backside" "$pof_func" >> cards.csv
