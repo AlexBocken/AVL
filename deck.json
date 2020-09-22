@@ -59,7 +59,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "css": "* {\n    padding: 0;\n    margin: 0;\n}\n\nbody {\n}\n\na, body {\n    font-family: \"Segoe UI Light\",\"Segoe UI\",Segoe,Tahoma,Arial,Verdana,sans-serif;\n}\n\n  container {\n        margin-bottom: 50px;\n        margin: auto;\n    }\n\n\n.card {\n        /*padding-left: 180px;\n        width: 920px;*/\n        margin-top: 10px;\n        line-height: 20px;\n        float: left;\n\t\tfont-family: Arial,Verdana,sans-serif;\n    }\n\n        .card p {\n            padding: 10px 0;\n\t\t\tposition: relative;\n        }\n\n            .card p.word {\n                font-size: 30px;\n                border-bottom: 1px dashed #D2D0C8;\n                color: #00AEEF;\n            }\n                .card p.word i {\n                    color: #000000;\n                    font-size: 16px;\n                    font-style: normal;\n                }\n\n                    .card p.word i:before {\n                        content: \"-\";\n                        padding-right: 10px;\n                        color: #666666;\n                    }\n\t\t\t.card p.backside i:after {\n\t\t\t\tcontent:\"test\";\n\t\t\t\t\t}\n\n            .card p u {\n                font-size: 18px;\n                text-decoration: none;\n                color: #FF8A00;\n            }\n.card p sup{\n                background: none repeat scroll 0 0 #FF0000;\n    border-radius: 50%;\n    color: #FFFFFF;\n    display: block;\n    font-size: 14px;\n    font-weight: bold;\n    height: 24px;\n    line-height: 22px;\n    position: absolute;\n    text-align: center;\n    top: 10px;\n    width: 24px;\n            }\n\n\t\t\t.card p tt{\n                font-family: Arial,Verdana,sans-serif;\n    font-size: 22px;\n    margin-left: 30px;\n            }\n            .card p .ex {\n                border-left: 1px solid #CCCCCC;\n                display: block;\n                padding-top: 5px;\n\t\t\t\tmargin-top:2px;\n                padding-left: 20px;\n            }\n\n                .card p .excontent {\n                    border-left: 1px solid #CCCCCC;\n                    /*display: block;*/\n                    padding-bottom: 5px;\n                    padding-left: 40px;\n                }\n\n                    .card p .excontent:before {\n                        content: \"-\";\n                        padding-right: 5px;\n                    }\n\n#bottom-left {\n  text-align:left;\n  position:fixed;\n  bottom: 20px;\n  left: 20px;\n  width: 33vw;\n}\n",
+            "css": "* {\n    padding: 0;\n    margin: 0;\n}\n\nbody {\n}\n\na, body {\n    font-family: \"Segoe UI Light\",\"Segoe UI\",Segoe,Tahoma,Arial,Verdana,sans-serif;\n}\n\n  container {\n        margin-bottom: 50px;\n        margin: auto;\n    }\n\n\n.card {\n        /*padding-left: 180px;\n        width: 920px;*/\n        margin-top: 10px;\n        line-height: 20px;\n        float: left;\n\t\tfont-family: Arial,Verdana,sans-serif;\n    }\n\n        .card p {\n            padding: 10px 0;\n\t\t\tposition: relative;\n        }\n\n            .card p.word {\n                font-size: 30px;\n                border-bottom: 1px dashed #D2D0C8;\n                color: #00AEEF;\n            }\n                .card p.word i {\n                    color: #AAAAAA;\n                    font-size: 16px;\n                    font-style: normal;\n                }\n\n                    .card p.word i:before {\n                        content: \"-\";\n                        padding-right: 10px;\n                        color: #666666;\n                    }\n\n            .card p u {\n                font-size: 18px;\n                text-decoration: none;\n                color: #FF8A00;\n            }\n\n\t\t\t.card p tt{\n                font-family: Arial,Verdana,sans-serif;\n    \t\t\t\tfont-size: 22px;\n    \t\t\t\tmargin-left: 30px;\n            }\n            .card p .ex {\n                border-left: 1px solid #CCCCCC;\n                display: block;\n                padding-top: 5px;\n\t\t\t\tmargin-top:2px;\n                padding-left: 20px;\n            }\n\n                .card p .excontent {\n                    border-left: 1px solid #CCCCCC;\n                    /*display: block;*/\n                    padding-bottom: 5px;\n                    padding-left: 40px;\n                }\n\n                    .card p .excontent:before {\n                        content: \"-\";\n                        padding-right: 5px;\n                    }\n\n#bottom-left {\n  text-align:left;\n  position:fixed;\n  bottom: 20px;\n  left: 20px;\n  width: 33vw;\n}\n",
             "flds": [
                 {
                     "font": "Helvetica",
@@ -227,7 +227,7 @@
                 "total",
                 "",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + TOTAL </U> </P> <P> <U> TOTAL + VERB </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> annual, monthly | combined, cumulative, grand, overall, sum </B><I>His two goals give him a grand total of 32 for the season. The sum total of my knowledge of biology is not impressive. </i><br><B>| final | high, huge, large, record </B><I>a record total of victories </i><br><B>| low, small | global, national, world/worldwide | jobless, unemployment </B><I>Britain's jobless total rose by 20,000 last month. </i><br> </P> <P> <U> VERB + TOTAL </U><B> add up to, give, make (up) </B><I>Their earnings were </i><br>&pound;</B><I>250, </i><br>&pound;</B><I>300 and </i><br>&pound;</B><I>420, giving a total of </i><br>&pound;</B><I>970. </i><br><B>| bring, take </B><I>A donation of </i><br>&pound;</B><I>250 has been received, bringing the total to </i><br>&pound;</B><I>3,750. </i><br><B>| achieve </B><I>The Greens achieved a total of 18 seats. </i><br> </P> <P> <U> TOTAL + VERB </U><B> rise | fall </B> </P> <P> <U> PREP. </U><B> in ~ </B><I>In total, they spent 420 hours on the project. </i><br><B>| out of a ~ of </B><I>180 vehicles out of a total of 900 examined were not roadworthy. </i><br><B>| ~ of</B> </P>",
+                "<p> <u> ADJ. </u><b> annual, monthly | combined, cumulative, grand, overall, sum </b><i>His two goals give him a grand total of 32 for the season. The sum total of my knowledge of biology is not impressive. </i><br><b>| final | high, huge, large, record </b><i>a record total of victories </i><br><b>| low, small | global, national, world/worldwide | jobless, unemployment </b><i>Britain's jobless total rose by 20,000 last month. </i><br> </p> <p> <u> VERB + TOTAL </u><b> add up to, give, make (up) </b><i>Their earnings were </i>£<i>250, </i>£<i>300 and </i>£<i>420, giving a total of </i>£<i>970. </i><br><b>| bring, take </b><i>A donation of </i>£<i>250 has been received, bringing the total to&nbsp;</i>£<i>3,750. </i><br><b>| achieve </b><i>The Greens achieved a total of 18 seats. </i><br> </p> <p> <u> TOTAL + VERB </u><b> rise | fall </b> </p> <p> <u> PREP. </u><b> in ~ </b><i>In total, they spent 420 hours on the project. </i><br><b>| out of a ~ of </b><i>180 vehicles out of a total of 900 examined were not roadworthy. </i><br><b>| ~ of</b> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -435,7 +435,7 @@
                 "estimate",
                 "",
                 "<p> <u> ADJ. </u> </p> <p> <u> VERB + ESTIMATE </u> </p> <p> <u> ESTIMATE + VERB </u> </p> <p> <u> PREP.</u></p>",
-                "<P> <U> ADJ. </U><B> official, unofficial | current, recent </B><I>Current estimates suggest that supplies will run out within six months. </i><br><B>| early, initial, preliminary | accurate, fair, good, realistic, reasonable, reliable | best </B><I>Flight times in the brochure are based on our best estimate, and will be confirmed as soon as possible. </i><br><B>| approximate, rough | conservative, low </B><I>I think 15,000 will turn out to be a very low estimate. </i><br><B>| high </B><I>According to the highest estimate, over 100,000 men died in the battle. </i><br><B>| optimistic, pessimistic | cost </B> </P> <P> <U> VERB + ESTIMATE </U><B> make </B><I>Can you make an estimate of the numbers involved? </i><br><B>| give (sb), provide (sb with), submit </B><I>Three firms submitted estimates for the work. </i><br><B>| revise </B> </P> <P> <U> ESTIMATE + VERB </U><B> be based on sth | indicate sth, predict sth, show sth, suggest sth </B><I>One estimate suggests that 30,000 jobs may be lost. </i><br><B>| put sth at </B><I>Some estimates put the figure as high as 50%. </i><br><B>| range, vary </B><I>Cost estimates vary from $50,000 to $200,000. </i><br> </P> <P> <U> PREP. </U><B> according to an/the ~ </B><I>According to the revised estimate, four million people will be without homes. </i><br><B>| at an ~ </B><I>Even at a conservative estimate, there is a lot of work to be done. </i><br><B>| in an/the ~ </B><I>In his first estimate, he suggested a figure of </i><br>&pound;</B><I>5,000. </i><br><B>| ~ by, ~ from </B><I>According to an estimate by a leading newspaper, she earns </i><br>&pound;</B><I>40 million a year. </i><br><B>| ~ for </B><I>We will send you an estimate for the repairs. </i><br><B>| ~ of </B><I>an estimate of profits an estimate of </i><br>&pound;</B><I>300 </i><br> </P>",
+                "<p> <u> ADJ. </u><b> official, unofficial | current, recent </b><i>Current estimates suggest that supplies will run out within six months. </i><br><b>| early, initial, preliminary | accurate, fair, good, realistic, reasonable, reliable | best </b><i>Flight times in the brochure are based on our best estimate, and will be confirmed as soon as possible. </i><br><b>| approximate, rough | conservative, low </b><i>I think 15,000 will turn out to be a very low estimate. </i><br><b>| high </b><i>According to the highest estimate, over 100,000 men died in the battle. </i><br><b>| optimistic, pessimistic | cost </b> </p> <p> <u> VERB + ESTIMATE </u><b> make </b><i>Can you make an estimate of the numbers involved? </i><br><b>| give (sb), provide (sb with), submit </b><i>Three firms submitted estimates for the work. </i><br><b>| revise </b> </p> <p> <u> ESTIMATE + VERB </u><b> be based on sth | indicate sth, predict sth, show sth, suggest sth </b><i>One estimate suggests that 30,000 jobs may be lost. </i><br><b>| put sth at </b><i>Some estimates put the figure as high as 50%. </i><br><b>| range, vary </b><i>Cost estimates vary from $50,000 to $200,000. </i><br> </p> <p> <u> PREP. </u><b> according to an/the ~ </b><i>According to the revised estimate, four million people will be without homes. </i><br><b>| at an ~ </b><i>Even at a conservative estimate, there is a lot of work to be done. </i><br><b>| in an/the ~ </b><i>In his first estimate, he suggested a figure of </i>£<i>5,000. </i><br><b>| ~ by, ~ from </b><i>According to an estimate by a leading newspaper, she earns </i>£<i>40 million a year. </i><br><b>| ~ for </b><i>We will send you an estimate for the repairs. </i><br><b>| ~ of </b><i>an estimate of profits an estimate of </i>£<i>300 </i><br> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -451,7 +451,7 @@
                 "estimate",
                 "",
                 "<p><u>ADV.</u><br></p> <p> <u> VERB + ESTIMATE </u> </p> <p> <u> PREP. </u> </p>",
-                "<P> <U> ADV. </U><B> currently | accurately, reliably | provisionally | conservatively </B><I>It is conservatively estimated that not less than half a million people died in the famine. </i><br><B>| officially, unofficially </B><I>The strike was officially estimated to have cost $80 million. </i><br> </P> <P> <U> VERB + ESTIMATE </U><B> be difficult to, be hard to, be impossible to | be used to </B><I>The results of the survey were used to estimate the preferences of the population at large. </i><br> </P> <P> <U> PREP. </U><B> at </B><I>We estimated the cost at </i><br>&pound;</B><I>50,000. </i><br> </P>",
+                "<p> <u> ADV. </u><b> currently | accurately, reliably | provisionally | conservatively </b><i>It is conservatively estimated that not less than half a million people died in the famine. </i><br><b>| officially, unofficially </b><i>The strike was officially estimated to have cost $80 million. </i><br> </p> <p> <u> VERB + ESTIMATE </u><b> be difficult to, be hard to, be impossible to | be used to </b><i>The results of the survey were used to estimate the preferences of the population at large. </i><br> </p> <p> <u> PREP. </u><b> at </b><i>We estimated the cost at </i>£<i>50,000. </i><br> </p>",
                 "verb"
             ],
             "flags": 0,
@@ -467,7 +467,7 @@
                 "negative",
                 "only thinking about/showing sb/sth's bad qualities",
                 "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> VERBS </U><B> be, feel, seem, sound | become | remain </B> </P> <P> <U> ADV. </U><B> distinctly, extremely, strongly, terribly, very </B><I>the strongly negative implications of these survey results Their attitude was terribly negative. </i><br><B>| completely, entirely, exclusively, purely, totally, wholly </B><I>She spoke in entirely negative terms. </i><br><B>| largely, mainly, overwhelmingly | fairly, rather, slightly, somewhat | apparently | essentially </B><I>Critical thinking is essentially negative as it seeks to dissect and not to build. </i><br><B>| generally </B> </P> <P> <U> PREP. </U><B> about </B><I>He's been rather negative about the idea. </i><br> </P>",
+                "<p> <u> VERBS </u><b> be, feel, seem, sound | become | remain </b> </p> <p> <u> ADV. </u><b> distinctly, extremely, strongly, terribly, very </b><i>the strongly negative implications of these survey results. Their attitude was terribly negative. </i><br><b>| completely, entirely, exclusively, purely, totally, wholly </b><i>She spoke in entirely negative terms. </i><br><b>| largely, mainly, overwhelmingly | fairly, rather, slightly, somewhat | apparently | essentially </b><i>Critical thinking is essentially negative as it seeks to dissect and not to build. </i><br><b>| generally </b> </p> <p> <u> PREP. </u><b> about </b><i>He's been rather negative about the idea. </i><br> </p>",
                 "adj."
             ],
             "flags": 0,
@@ -577,9 +577,9 @@
             "fields": [
                 "213.1.1",
                 "challenge",
-                "sth new and difficult\nquestion whether sth is right/true",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CHALLENGE </U> </P> <P> <U> CHALLENGE + VERB </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> big, considerable, enormous, great, huge, radical, real, serious, significant, strong | difficult, tough | major, main | fresh, new | exciting, interesting | economic, environmental, intellectual, political, technical, technological </B><I>Liszt's piano music presents an enormous technical challenge. </i><br> </P> <P> <U> VERB + CHALLENGE </U><B> be, pose, present | face, meet, respond to, rise to, take on/up </B><I>The gallery has risen to the challenge of exhibiting the works of young artists. He has taken on some exciting new challenges with this job. </i><br> </P> <P> <U> CHALLENGE + VERB </U><B> face sb </B><I>the challenges facing nurses in casualty </i><br> </P> <P> <U> ADV. </U><B> directly </B><I>The newspaper was directly challenging the government's legitimacy. </i><br><B>| seriously | effectively </B><I>She was effectively challenging the whole basis on which society was run. </i><br><B>| successfully </B><I>The story was completely untrue and was successfully challenged in court. </i><br> </P> <P> <U> PREP. </U><B> on </B><I>She challenged him on his old-fashioned views. </i><br> </P>",
+                "sth new and difficult",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CHALLENGE </u> </p> <p> <u> CHALLENGE + VERB</u></p>",
+                "<p> <u> ADJ. </u><b> big, considerable, enormous, great, huge, radical, real, serious, significant, strong | difficult, tough | major, main | fresh, new | exciting, interesting | economic, environmental, intellectual, political, technical, technological </b><i>Liszt's piano music presents an enormous technical challenge. </i><br> </p> <p> <u> VERB + CHALLENGE </u><b> be, pose, present&nbsp;</b><b>| face, meet, respond to, rise to, take on/up </b><i>The gallery has risen to the challenge of exhibiting the works of young artists. He has taken on some exciting new challenges with this job.&nbsp;</i></p> <p> <u> CHALLENGE + VERB </u><b> face sb </b><i>the challenges facing nurses in casualty&nbsp;</i></p>",
                 "noun"
             ],
             "flags": 0,
@@ -593,9 +593,9 @@
             "fields": [
                 "213.1.2",
                 "challenge",
-                "that shows that sb refuses to accept sth\ninvite sb to compete, argue, etc.",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CHALLENGE </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> serious | direct | effective | legal </B> </P> <P> <U> VERB + CHALLENGE </U><B> be, present, represent </B><I>The demonstration represents a direct challenge to the new law. </i><br> </P> <P> <U> PREP. </U><B> ~ to </B><I>a legal challenge to the president's power </i><br> </P> <P> <U> ADV. </U><B> seriously </B><I>No one has seriously challenged the champion. </i><br><B>| successfully, unsuccessfully </B> </P> <P> <U> PREP. </U><B> for </B><I>She was poised to challenge for the party leadership. </i><br><B>| to </B><I>The count challenged him to a duel. </i><br> </P>",
+                "that shows that sb refuses to accept sth",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CHALLENGE </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> ADJ. </u><b> serious | direct | effective | legal </b> </p> <p> <u> VERB + CHALLENGE </u><b> be, present, represent </b><i>The demonstration represents a direct challenge to the new law. </i><br> </p> <p> <u> PREP. </u><b> ~ to </b><i>a legal challenge to the president's power&nbsp;</i></p>",
                 "noun"
             ],
             "flags": 0,
@@ -610,8 +610,8 @@
                 "213.1.3",
                 "challenge",
                 "invitation to compete",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CHALLENGE </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CHALLENGER </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> leadership, title </B><I>his title challenge to the heavyweight champion </i><br> </P> <P> <U> VERB + CHALLENGE </U><B> issue, mount </B><I>plans to mount a leadership challenge within the party </i><br><B>| accept, take up </B><I>I accepted his challenge to a game of chess. </i><br><B>| beat off, fight off </B><I>Our team will have to fight off the challenge from better trained teams. </i><br> </P> <P> <U> PREP. </U><B> ~ from </B><I>a challenge from the other political party </i><br> </P> </DIV><DIV class=\"item\"><P class=\"word\"><B>challenger </B><I>noun </i><br> </P> <P> <U> ADJ. </U><B> closest, main, nearest, serious, strong </B><I>Her nearest challenger is the vice-president. </i><br> </P> <P> <U> VERB + CHALLENGER </U><B> take on </B><I>He took on various challengers, but refused to fight Jackson. </i><br> </P> <P> <U> PREP. </U><B> ~ for </B><I>the main challengers for the European title </i><br><B>| ~ to </B><I>a challenger to the prime minister </i><br> </P> </DIV><DIV class=\"item\"><P class=\"word\"><B>challenge </B><I>verb </i><br> </P> <P> <SUP> 1 </SUP> <TT> question whether sth is right/true </TT> </P> <P> <U> ADV. </U><B> directly </B><I>The newspaper was directly challenging the government's legitimacy. </i><br><B>| seriously | effectively </B><I>She was effectively challenging the whole basis on which society was run. </i><br><B>| successfully </B><I>The story was completely untrue and was successfully challenged in court. </i><br> </P> <P> <U> PREP. </U><B> on </B><I>She challenged him on his old-fashioned views. </i><br> </P> <P> <SUP> 2 </SUP> <TT> invite sb to compete, argue, etc. </TT> </P> <P> <U> ADV. </U><B> seriously </B><I>No one has seriously challenged the champion. </i><br><B>| successfully, unsuccessfully </B> </P> <P> <U> PREP. </U><B> for </B><I>She was poised to challenge for the party leadership. </i><br><B>| to </B><I>The count challenged him to a duel. </i><br> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CHALLENGE </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> ADJ. </u><b> leadership, title </b><i>his title challenge to the heavyweight champion </i><br> </p> <p> <u> VERB + CHALLENGE </u><b> issue, mount </b><i>plans to mount a leadership challenge within the party </i><br><b>| accept, take up </b><i>I accepted his challenge to a game of chess. </i><br><b>| beat off, fight off </b><i>Our team will have to fight off the challenge from better trained teams. </i><br> </p> <p> <u> PREP. </u><b> ~ from </b><i>a challenge from the other political party </i><br> </p> ",
                 "noun"
             ],
             "flags": 0,
@@ -623,63 +623,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "213.1.4",
-                "challenge",
+                "213.2",
+                "challenger",
                 "",
-                "",
-                "",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "uL.Ts[;{$I",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "213.1.5",
-                "challenge",
-                "",
-                "",
-                "",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "s9|Ej91Xob",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "213.2.1",
-                "challenge",
-                "sth new and difficult",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CHALLENGE </U> </P> <P> <U> CHALLENGE + VERB </U> </P>",
-                "<P> <U> ADJ. </U><B> big, considerable, enormous, great, huge, radical, real, serious, significant, strong | difficult, tough | major, main | fresh, new | exciting, interesting | economic, environmental, intellectual, political, technical, technological </B><I>Liszt's piano music presents an enormous technical challenge. </i><br> </P> <P> <U> VERB + CHALLENGE </U><B> be, pose, present | face, meet, respond to, rise to, take on/up </B><I>The gallery has risen to the challenge of exhibiting the works of young artists. He has taken on some exciting new challenges with this job. </i><br> </P> <P> <U> CHALLENGE + VERB </U><B> face sb </B><I>the challenges facing nurses in casualty </i><br> </P>",
+                "<p> <u> ADJ. </u></p>\n<p> <u> VERB + CHALLENGER </u></p>\n<p> <u> PREP. </u></p>",
+                "<p> <u> ADJ. </u><b> closest, main, nearest, serious, strong </b><i>Her nearest challenger is the vice-president. </i> <br></p>\n<p> <u> VERB + CHALLENGER </u><b> take on </b><i>He took on various challengers, but refused to fight Jackson. </i> <br></p>\n<p> <u> PREP. </u><b> ~ for </b><i>the main challengers for the European title </i><br><b>| ~ to </b><i>a challenger to the prime minister </i> <br></p>",
                 "noun"
             ],
             "flags": 0,
             "guid": "xH3:0ObC&R",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "213.2.2",
-                "challenge",
-                "that shows that sb refuses to accept sth",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CHALLENGE </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> serious | direct | effective | legal </B> </P> <P> <U> VERB + CHALLENGE </U><B> be, present, represent </B><I>The demonstration represents a direct challenge to the new law. </i><br> </P> <P> <U> PREP. </U><B> ~ to </B><I>a legal challenge to the president's power </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "e,HqFk+XV+",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
