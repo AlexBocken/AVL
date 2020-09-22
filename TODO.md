@@ -27,6 +27,7 @@
 | 361  | subsequent     |
 | 383  | considerable   |
 | 388  | respectively   |
+| 392  | german         |
 | 396  | constitute     |
 | 399  | acquire        |
 | 414  | collective     |

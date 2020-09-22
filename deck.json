@@ -2,12 +2,12 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "0c8517f8-f69e-11ea-9154-9cb6d013a4a3",
-    "deck_config_uuid": "4d2bc75e-fc50-11ea-84bd-9cb6d013a4a3",
+    "deck_config_uuid": "a705dc1c-fc9e-11ea-931e-9cb6d013a4a3",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "4d2bc75e-fc50-11ea-84bd-9cb6d013a4a3",
+            "crowdanki_uuid": "a705dc1c-fc9e-11ea-931e-9cb6d013a4a3",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -19,7 +19,7 @@
                 "mult": 0.0
             },
             "maxTaken": 60,
-            "name": "Core 2000",
+            "name": "AVL",
             "new": {
                 "bury": false,
                 "delays": [
@@ -33,7 +33,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 20
+                "perDay": 10
             },
             "replayq": true,
             "rev": {
@@ -817,9 +817,9 @@
                 "217.1",
                 "depend",
                 "be affected by sth",
-                "<P> <U> ADV. </U> </P> <P> <U> VERB + DEPEND </U> </P>",
-                "<P> <U> ADV. </U><B> crucially, greatly, very much </B><I>The future of the company will depend crucially on how consumers respond. </I><B>| entirely, solely | largely, mainly | partly, rather, to some extent | ultimately </B><I>Whether or not we can go ultimately depends on the weather. </I> </P> <P> <U> VERB + DEPEND </U><B> seem to </B><I>The outcome seems to depend on the type of soil used. </I> </P>",
-                "verb\n            "
+                "<p> <u> ADV. </u> </p> <p> <u> VERB + DEPEND </u> </p>",
+                "<p> <u> ADV. </u><b> crucially, greatly, very much </b><i>The future of the company will depend crucially on how consumers respond. </i><b>| entirely, solely | largely, mainly | partly, rather, to some extent | ultimately </b><i>Whether or not we can go ultimately depends on the weather. </i> </p> <p> <u> VERB + DEPEND </u><b> seem to </b><i>The outcome seems to depend on the type of soil used. </i> </p>",
+                "verb"
             ],
             "flags": 0,
             "guid": "vT|WNRti$>",
@@ -834,8 +834,8 @@
                 "depend",
                 "need",
                 "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADV. </U><B> heavily | entirely, solely </B> </P> <P> <U> PREP. </U><B> for </B><I>She depends entirely on her parents for money. </I> </P>",
-                "verb\n            "
+                "<p> <u> ADV. </u><b> heavily | entirely, solely </b> </p> <p> <u> PREP. </u><b> for </b><i>She depends entirely on her parents for money. </i> </p>",
+                "verb"
             ],
             "flags": 0,
             "guid": "JETPY~jW_G",
@@ -3119,10 +3119,10 @@
             "data": "",
             "fields": [
                 "301.1",
-                "difficulty",
+                "difficult",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> QUANT. </U> </P> <P> <U> VERB + DIFFICULTY </U> </P> <P> <U> DIFFICULTY + VERB </U> </P> <P> <U> PREP. </U> </P>",
-                "",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV.</u></p>",
+                "<p> <u> VERBS </u><b> be, look, prove, seem, sound | become, get </b><i>It is getting more and more difficult to find a job. </i><b>| make sth </b><i>The fog made driving very difficult. </i><b>| find sth </b> </p>\n<p> <u> ADV. </u><b> exceedingly, extraordinarily, extremely, incredibly, particularly, really, very | doubly </b><i>Her disability made taking care of the home and raising a family doubly difficult. </i><b>| increasingly | a bit, quite, rather | notoriously </b><i>Birth rates are notoriously difficult to predict. </i> </p>",
                 "adj."
             ],
             "flags": 0,
@@ -3137,8 +3137,8 @@
                 "301.2",
                 "difficulty",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> QUANT. </U> </P> <P> <U> VERB + DIFFICULTY </U> </P> <P> <U> DIFFICULTY + VERB </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> considerable, enormous, grave, great, major, real, serious, severe </B><I>We had enormous difficulty in getting hold of the right equipment. </I><B>| insurmountable | increasing </B><I>questions of increasing difficulty </I><B>| inherent </B><I>the difficulties inherent in treating overdose patients </I><B>| particular, special </B><I>English spelling presents special difficulties for foreign learners. </I><B>| economic, financial | practical, technical </B><I>I think we've managed to overcome most of the practical difficulties. </I><B>| behavioural, emotional, learning </B><I>children with learning difficulties </I> </P> <P> <U> QUANT. </U><B> level </B><I>The games have various different levels of difficulty. </I> </P> <P> <U> VERB + DIFFICULTY </U><B> encounter, experience, face, get into, have, run into </B><I>Among the difficulties encountered was a lack of cooperation on the part of the authorities. Anyone experiencing difficulty with radio reception should call us on the new helpline. Let me know if you have any difficulties. I had little difficulty in persuading the others to come. The scheme has run into serious difficulties. </I><B>| cause, create, make, present </B><I>Will it cause any difficulties if I go early? She is always making difficulties for herself. </I><B>| cope with, deal with, overcome, resolve, solve, surmount | avoid </B><I>how to avoid technical difficulties </I><B>| be fraught with </B><I>The situation was fraught with difficulty. </I> </P> <P> <U> DIFFICULTY + VERB </U><B> arise, crop up </B><I>Difficulties arise when people fail to consult their colleagues. </I><B>| lie (in sth) </B><I>The difficulty lies in identifying the precise nature of the problem. </I> </P> <P> <U> PREP. </U><B> despite a/the ~ </B><I>Despite all the difficulties, he still remains optimistic. </I><B>| in ~ </B><I>We could see that the swimmer was in difficulties. </I><B>| with/without ~ </B><I>We crossed the border without any difficulty. Life in the city was not without its difficulties. </I><B>| ~ in </B><I>She had difficulty in starting her car. </I><B>| ~ of </B><I>the difficulty of finding affordable accommodation </I><B>| ~ with </B><I>having difficulty with the engine </I> </P>",
+                "<p><u>ADJ.</u><br></p> <p> <u> QUANT. </u> </p> <p> <u> VERB + DIFFICULTY </u> </p> <p> <u> DIFFICULTY + VERB </u> </p> <p> <u> PREP. </u> </p>",
+                "<p> <u> ADJ. </u><b> considerable, enormous, grave, great, major, real, serious, severe </b><i>We had enormous difficulty in getting hold of the right equipment. </i><b>| insurmountable | increasing </b><i>questions of increasing difficulty </i><b>| inherent </b><i>the difficulties inherent in treating overdose patients </i><b>| particular, special </b><i>English spelling presents special difficulties for foreign learners. </i><b>| economic, financial | practical, technical </b><i>I think we've managed to overcome most of the practical difficulties. </i><b>| behavioural, emotional, learning </b><i>children with learning difficulties </i> </p> <p> <u> QUANT. </u><b> level </b><i>The games have various different levels of difficulty. </i> </p> <p> <u> VERB + DIFFICULTY </u><b> encounter, experience, face, get into, have, run into </b><i>Among the difficulties encountered was a lack of cooperation on the part of the authorities. Anyone experiencing difficulty with radio reception should call us on the new helpline. Let me know if you have any difficulties. I had little difficulty in persuading the others to come. The scheme has run into serious difficulties. </i><b>| cause, create, make, present </b><i>Will it cause any difficulties if I go early? She is always making difficulties for herself. </i><b>| cope with, deal with, overcome, resolve, solve, surmount | avoid </b><i>how to avoid technical difficulties </i><b>| be fraught with </b><i>The situation was fraught with difficulty. </i> </p> <p> <u> DIFFICULTY + VERB </u><b> arise, crop up </b><i>Difficulties arise when people fail to consult their colleagues. </i><b>| lie (in sth) </b><i>The difficulty lies in identifying the precise nature of the problem. </i> </p> <p> <u> PREP. </u><b> despite a/the ~ </b><i>Despite all the difficulties, he still remains optimistic. </i><b>| in ~ </b><i>We could see that the swimmer was in difficulties. </i><b>| with/without ~ </b><i>We crossed the border without any difficulty. Life in the city was not without its difficulties. </i><b>| ~ in </b><i>She had difficulty in starting her car. </i><b>| ~ of </b><i>the difficulty of finding affordable accommodation </i><b>| ~ with </b><i>having difficulty with the engine </i> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -3521,7 +3521,7 @@
                 "318.1",
                 "experiment",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + EXPERIMENT </U> </P> <P> <U> EXPERIMENT + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + EXPERIMENT </U> </P> <P> <U> PREP. </U> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + EXPERIMENT </u> </p> <p> <u> EXPERIMENT + VERB </u> </p> <p> <u> PREP.</u></p>",
                 "<P> <U> ADJ. </U><B> animal </B><I>protesting against animal experiments </I><B>| field, laboratory | educational, medical, psychological, scientific | practical | thought </B><I>His efforts involved thought experiments and analogies, rather than detailed experimentation. </I><B>| simple | brief | careful, control </B><I>(science)</I>, <B>controlled | interesting | ingenious | pioneering | bold </B><I>the country's bold experiment with economic reform </I><B>| successful, unsuccessful | pilot, preliminary | further </B><I>Further experiments will be carried out to verify this result. </I><B>| celebrated, classic/classical, famous, well-known </B><I>Pavlov's famous experiment with the dog and the dinner bell </I><B>| unique </B><I>Brazil's unique experiment with alcohol-fuelled cars </I> </P> <P> <U> VERB + EXPERIMENT </U><B> carry out, conduct, do, perform | try </B><I>The school decided to try an experiment in single-sex teaching. </I><B>| design | set up | describe, report </B><I>a classic experiment reported in 1964 </I> </P> <P> <U> EXPERIMENT + VERB </U><B> confirm sth, demonstrate sth, find sth, illustrate sth, prove sth, show sth | indicate sth, suggest sth | be aimed at sth, be designed to do sth </B><I>an experiment aimed at cutting road deaths resulting from excessive speeding </I><B>| involve sth, use sth | be successful, work </B><I>If the conditions are not right, the experiment will not work. </I><B>| fail </B> </P> <P> <U> PREP. </U><B> by ~ </B><I>The appropriate concentration of the drug is best determined by experiment. </I><B>| during an/the ~ </B><I>The animals seemed healthy during the experiment. </I><B>| in an/the ~ </B><I>In these experiments, chilling is necessary. </I><B>| ~ in </B><I>the country's brief experiment in multi-party democracy </I><B>| ~ on </B><I>The team carried out experiments on cancer tissue. </I><B>| ~ with </B><I>conducting an experiment with zinc chips and hydrochloric acid </I> </P>",
                 "noun"
             ],
@@ -3537,7 +3537,7 @@
                 "318.2",
                 "experiment",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + EXPERIMENT </U> </P> <P> <U> EXPERIMENT + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + EXPERIMENT </U> </P> <P> <U> PREP. </U> </P>",
+                "<p><u>ADV.</u><br></p> <p> <u> VERB + EXPERIMENT </u> </p> <p> <u> PREP. </u> </p>",
                 "<P> <U> ADV. </U><B> successfully </B> </P> <P> <U> VERB + EXPERIMENT </U><B> begin to | continue to </B> </P> <P> <U> PREP. </U><B> on </B><I>They experimented successfully on the plants to discover disease-resistant varieties. </I><B>| with </B><I>We have experimented with various different designs of kite. </I> </P>",
                 "verb"
             ],
@@ -3555,7 +3555,7 @@
                 "possible effect/result",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + IMPLICATION </U> </P> <P> <U> IMPLICATION + VERB </U> </P> <P> <U> PREP. </U> </P>",
                 "<P> <U> ADJ. </U><B> considerable, crucial, enormous, important, major, massive, strong | main | deeper, fundamental, profound | broad, far-reaching, wider  </B><I>discussing the broader implications of the medical plan </I><B>| full </B><I>Now they realized the full implications of the new system. </I><B>| direct | clear, obvious | underlying | general | further | possible, potential | future, long-term | grave, serious | disturbing, frightening, ominous, sinister | adverse, damaging, negative | interesting | radical, revolutionary | practical </B><I>These results have important practical implications. </I><B>| commercial, constitutional, economic, educational, environmental, ethical, financial, ideological, legal, moral, philosophical, political, psychological, social </B><I>the constitutional implications of a royal divorce </I><B>| cost, health, policy, resource, safety, security, tax </B> </P> <P> <U> VERB + IMPLICATION </U><B> carry, have </B><I>The emphasis on testing leads to greater stress among students and carries implications of failure. </I><B>| grasp, realize, understand | assess, consider, examine, explore, ponder, study </B><I>You need to consider the legal implications before you publish anything. </I><B>| digest | discuss | explain | accept </B><I>a society that fully accepts the implications of disability </I><B>| reject | ignore </B> </P> <P> <U> IMPLICATION + VERB </U><B> arise </B><I>Several interesting implications arise from these developments. </I><B>| be involved </B><I>Given the resource implications involved, the plan will have to be scaled down. </I> </P> <P> <U> PREP. </U><B> ~ about </B><I>disturbing implications about the company's future </I><B>| ~ for </B><I>The research has far-reaching implications for medicine as a whole. </I> </P>",
-                "<DIV class=\"item\"><P class=\"word\"><B>implication </B><I>noun </I> </B> </P>"
+                "noun"
             ],
             "flags": 0,
             "guid": "FX5fVx7q4}",
@@ -3571,7 +3571,7 @@
                 "sth suggested but not said openly",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + IMPLICATION </U> </P> <P> <U> PREP. </U> </P>",
                 "<P> <U> ADJ. </U><B> clear, obvious </B><I>The implication is clear: young females do better if they mate with a new male. </I><B>| possible </B><I>His remark seemed to have various possible implications. </I> <B>| unspoken </B> </P> <P> <U> VERB + IMPLICATION </U><B> carry, have | understand | digest </B><I>Brian paused for a moment while he digested the implications of this statement. </I> | resent </B><I>I resent the implication that I don't care about my father. </I> </P> <P> <U> PREP. </U><B> by ~ </B><I>In refusing to believe our story, he is saying by implication that we are lying. </I> </P>",
-                "<DIV class=\"item\"><P class=\"word\"><B>implication </B><I>noun </I> </B> </P>"
+                "noun"
             ],
             "flags": 0,
             "guid": "x>1-k{b0[m",
@@ -3667,7 +3667,7 @@
                 "",
                 "<P> <U> ADV. </U> </P>",
                 "<P> <U> ADV. </U><B> entirely, exclusively, merely, only, simply, solely </B><I>Their conversation consisted almost entirely of gossip. </I><B>| chiefly, essentially, largely, mainly, mostly, predominantly, primarily, principally</B> </P>",
-                "<DIV class=\"item\"><P class=\"word\"><B>consist </B><I>verb </I><B>PHRASAL VERBS consist of sth </B> </P>"
+                "verb"
             ],
             "flags": 0,
             "guid": "br@t&[N4,",
@@ -3731,7 +3731,7 @@
                 "",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + INDUSTRIAL ACTION </U> </P> <P> <U> PREP. </U> </P>",
                 "<P> <U> ADJ. </U><B> continuing | unlawful </B> </P> <P> <U> VERB + INDUSTRIAL ACTION </U><B> take | threaten | call for | vote for | start | step up </B><I>The union is considering stepping up its industrial action. </I><B>| suspend | stop | take part in, be/become involved in </B><I>His research indicates an increase in the number of women involved in industrial action. </I><B>| support </B> </P> <P> <U> PREP. </U><B> ~ against </B><I>The union is threatening industrial action against the company. </I><B>| ~ by </B><I>industrial action by railway workers </I><B>| ~ in support of </B><I>industrial action in support of demands for a ten per cent salary adjustment </I><B>| ~ over </B><I>to take industrial action over pay </I> </P>",
-                "<DIV class=\"item\"><P class=\"word\"><B>industrial action </B><I>noun </I> </P>"
+                "industrial action"
             ],
             "flags": 0,
             "guid": "p3hb-`Gb()",
@@ -3778,7 +3778,7 @@
                 "revolution",
                 "movement around sth; one complete turn",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + REVOLUTION </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> complete, full </B><I>One full revolution of the knob will open the hatch. </I> </P> <P> <U> VERB + REVOLUTION </U><B> make </B> </P> <P> <U> PREP. </U><B> through a ~ </B><I>The earth turns through one complete revolution approximately every twenty-four hours. </I><B>| ~ about/around/round </B><I>How long does it take for the planet Jupiter to make a complete revolution around the sun? </I> </P> <P> <U> PHRASES </U><B> revolutions a/per minute </B>&gt; See <A HREF=\"rev_noun.htm\">REV</A> </B> </P>",
+                "<p> <u> ADJ. </u><b> complete, full </b><i>One full revolution of the knob will open the hatch. </i> </p> <p> <u> VERB + REVOLUTION </u><b> make </b> </p> <p> <u> PREP. </u><b> through a ~ </b><i>The earth turns through one complete revolution approximately every twenty-four hours. </i><b>| ~ about/around/round </b><i>How long does it take for the planet Jupiter to make a complete revolution around the sun? </i> </p> <p> <u> PHRASES </u><b> revolutions a/per minute </b></p>",
                 "noun"
             ],
             "flags": 0,
@@ -3793,8 +3793,8 @@
                 "330.1",
                 "fundamental",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + FUNDAMENTALS </U> </P>",
-                "<P> <U> VERBS </U><B> be, seem | remain | consider sth, regard sth as </B><I>We consider these freedoms fundamental to democracy. </I> </P> <P> <U> ADV. </U><B> truly, very | absolutely, quite </B><I>This principle is clear and absolutely fundamental. </I><B>| fairly, rather </B> </P> <P> <U> PREP. </U><B> to </B><I>Improved funding is fundamental to the success of the project. </I> </P> <P> <U> ADJ. </U><B> basic | very </B><I>The new law strikes at the very fundamentals of a free press. </I> </P> <P> <U> VERB + FUNDAMENTALS </U><B> teach | grasp, learn, master </B><I>We quickly mastered the basic fundamentals of navigation. </I><B>| go back to, return to </B><I>The government went back to fundamentals, concentrating on avoiding food shortages. </I> </P>",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> VERBS </u><b> be, seem | remain | consider sth, regard sth as </b><i>We consider these freedoms fundamental to democracy. </i> </p> <p> <u> ADV. </u><b> truly, very | absolutely, quite </b><i>This principle is clear and absolutely fundamental. </i><b>| fairly, rather </b> </p> <p> <u> PREP. </u><b> to </b><i>Improved funding is fundamental to the success of the project. </i> </p> <p> </p>",
                 "adj."
             ],
             "flags": 0,
@@ -3807,10 +3807,10 @@
             "data": "",
             "fields": [
                 "330.2",
-                "fundamental",
+                "fundamentals",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + FUNDAMENTALS </U> </P>",
-                "",
+                "<p><u>ADJ.</u><br></p> <p> <u> VERB + FUNDAMENTALS </u> </p>",
+                "<u> ADJ. </u><b> basic | very </b><i>The new law strikes at the very fundamentals of a free press. </i>  <p> <u> VERB + FUNDAMENTALS </u><b> teach | grasp, learn, master </b><i>We quickly mastered the basic fundamentals of navigation. </i><b>| go back to, return to </b><i>The government went back to fundamentals, concentrating on avoiding food shortages. </i> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -3825,8 +3825,8 @@
                 "331.1",
                 "essential",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + ESSENTIALS </U> </P>",
-                "<P> <U> VERBS </U><B> appear, be, seem | become </B><I>It is becoming almost essential for students to have a second language. </I><B>| remain | make sth </B><I>Increased competition makes it essential for the business to innovate. </I><B>| consider sth, deem sth, regard sth as, see sth as, think sth </B><I>Do you consider these textbooks essential for the course? </I> </P> <P> <U> ADV. </U><B> really | absolutely | almost, virtually | fairly | by no means </B><I>Although useful, the accessories are by no means essential. </I> </P> <P> <U> PREP. </U><B> for </B><I>the skills essential for success </I><B>| to </B><I>He believed that some form of religion was essential to human life. </I> </P> <P> <U> ADJ. </U><B> bare, basic </B><I>the bare essentials for existence </I> </P> <P> <U> VERB + ESSENTIALS </U><B> grasp </B><I>Just try and grasp the essentials of the argument. </I><B>| provide </B><I>The relief agencies are trying to provide food and other basic essentials. </I><B>| concentrate on </B><I>Don't let's worry about the details at this stage. Let's concentrate on the essentials. </I> </P>",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> VERBS </u><b> appear, be, seem | become </b><i>It is becoming almost essential for students to have a second language. </i><b>| remain | make sth </b><i>Increased competition makes it essential for the business to innovate. </i><b>| consider sth, deem sth, regard sth as, see sth as, think sth </b><i>Do you consider these textbooks essential for the course? </i> </p> <p> <u> ADV. </u><b> really | absolutely | almost, virtually | fairly | by no means </b><i>Although useful, the accessories are by no means essential. </i> </p> <p> <u> PREP. </u><b> for </b><i>the skills essential for success </i><b>| to </b><i>He believed that some form of religion was essential to human life. </i> </p>",
                 "adj."
             ],
             "flags": 0,
@@ -3839,10 +3839,10 @@
             "data": "",
             "fields": [
                 "331.2",
-                "essential",
+                "essentials",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + ESSENTIALS </U> </P>",
-                "",
+                "<p><u>ADJ.</u><br></p> <p> <u> VERB + ESSENTIALS </u> </p>",
+                " <p> <u> ADJ. </u><b> bare, basic </b><i>the bare essentials for existence </i> </p> <p> <u> VERB + ESSENTIALS </u><b> grasp </b><i>Just try and grasp the essentials of the argument. </i><b>| provide </b><i>The relief agencies are trying to provide food and other basic essentials. </i><b>| concentrate on </b><i>Don't let's worry about the details at this stage. Let's concentrate on the essentials. </i> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -3887,9 +3887,9 @@
             "data": "",
             "fields": [
                 "333.1",
-                "contact",
+                "contact lens",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT LENS </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + VERB </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT LENS </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT </u> </p> <p> <u> PREP. </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT </u> </p> <p> <u> PREP. </u> </p> <p> <u> ADV. </u> </p> <p> <u> PHRASES </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTRACT </u> </p> <p> <u> CONTRACT + VERB </u> </p> <p> <u> CONTRACT + NOUN </u> </p> <p> <u> PREP. </u> </p> <p> <u> PHRASES </u> </p> <p> <u> VERB + CONTRACT </u> </p> <p> <u> CONTRACT + NOUN </u> </p> <p> <u> PREP. </u> </p>",
                 "",
                 "<DIV class=\"item\"><P class=\"word\"><B>contact lens </B><I>noun</I> </B> </P>"
             ],
@@ -3951,11 +3951,11 @@
             "data": "",
             "fields": [
                 "333.3.1",
-                "contact",
+                "contract",
                 "written agreement",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + VERB </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
                 "<P> <U> ADJ. </U><B> long-term, permanent | casual, fixed-term, short-term | three-year, two-year, etc. | formal, written | verbal | legal, valid | void </B><I>The contract was declared void. </I><B>| enforceable, unenforceable </B><I>(law) </I><B>| big, important, major | lucrative | business, commercial | employment, maintenance, research, service | catering, construction, haulage | marriage </B> </P> <P> <U> VERB + CONTRACT </U><B> have </B><I>Many workers do not have written contracts. </I><B>| bid for, tender for </B><I>Eighteen companies are bidding for the contract. </I><B>| award (sb), give sb | get, win | lose </B><I>The firm lost the contract to a large London company. </I><B>| negotiate </B><I>She managed to negotiate a permanent contract with the firm. </I><B>| draw up, write | conclude, enter into, make, sign </B><I>He entered into a contract with his former employer. </I><B>| carry out, execute </B><I>the firm carrying out the construction contract </I><B>| cancel, end, repudiate </B><I>(law)</I>, <B>rescind </B><I>(law)</I>, <B>terminate </B><I>Either party can terminate the contract at any time. </I><B>| be subject to </B><I>The offer has been accepted, subject to contract </I>(= the agreement is not legally binding before contracts are signed)</B><I>. </I><B>| be in breach of, break, violate </B><I>If you go on strike you will be in breach of contract. </I><B>| enforce </B><I>(law) </I><B>| exchange </B><I>(law) When a house is auctioned the successful bidder must exchange contracts immediately and pay a deposit. </I> </P> <P> <U> CONTRACT + VERB </U><B> expire </B><I>The contract expires at the end of next year. </I><B>| be worth sth </B><I>a series of major contracts worth millions of pounds </I> </P> <P> <U> CONTRACT + NOUN </U><B> worker </B>(= one on a fixed-term contract) <B>| law </B> </P> <P> <U> PREP. </U><B> in a/the ~ </B><I>They put a clause in the contract stipulating that the work should be finished by next month. </I><B>| on a ~ </B><I>He's on a three-year fixed-term contract. </I><B>| under ~ (to) </B><I>At that stage of her career she was still under contract to one of the big Hollywood studios. </I><B>| under a/the ~ </B><I>Under her contract of employment, Mrs Lee could not be required to work at a different site. </I><B>| ~ between </B><I>the contract between the employer and the employee </I><B>| ~ for </B><I>They won a contract for the delivery of five fighter planes. </I><B>| ~ with </B><I>Do you have a contract with your employer? </I> </P> <P> <U> PHRASES </U><B> (a) breach of contract </B><I>The company is being sued for breach of contract. </I><B>| a contract of employment/sale </B><I>You should make sure that you have a formal contract of employment. </I><B>| the terms of a contract </B><I>By using cheaper materials, the company has broken the terms of its contract. </I><B>| under the terms of a contract </B><I>Under the terms of the contract the job should have been finished yesterday. </I> </P>",
-                "verb"
+                "noun"
             ],
             "flags": 0,
             "guid": "c6T)C|>:pf",
@@ -3967,11 +3967,11 @@
             "data": "",
             "fields": [
                 "333.3.2",
-                "contact",
+                "contract",
                 "agreement to kill sb",
                 "<P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P>",
                 "<P> <U> VERB + CONTRACT </U><B> take out | have out </B><I>He has a contract out on you. </I> </P> <P> <U> CONTRACT + NOUN </U><B> killer, killing </B> </P> <P> <U> PREP. </U><B> ~ on </B><I>She took out a contract on her ex-husband. </I> </P>",
-                "verb"
+                "noun"
             ],
             "flags": 0,
             "guid": "zfE>ZiKT:0",
@@ -3984,77 +3984,13 @@
             "fields": [
                 "333.4.1",
                 "contact",
-                "meeting/talking/writing to sb\nwritten agreement",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + VERB </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> close </B><I>She is still in close contact with Sarah. </I><B>| regular | direct </B><I>Have you had any direct contact with the director of the company? </I><B>| face-to-face </B> </P> <P> <U> VERB + CONTACT </U><B> be in, have | come into, establish, get in, make </B><I>In his job, he comes into contact with many different people. We first established contact with the organization in 1999. When I arrive in New York, I'll get in contact with him. </I><B>| put sb in </B><I>I put my cousin in contact with a friend who works at the company. </I><B>| keep, maintain, stay in </B><I>Maintaining contact after many years can be difficult. </I><B>| break off | lose </B> </P> <P> <U> PREP. </U><B> ~ between </B><I>There has been no contact between them for several years. </I><B>| ~ with </B><I>I have very little contact with Simon now. </I> </P> <P> <U> ADJ. </U><B> long-term, permanent | casual, fixed-term, short-term | three-year, two-year, etc. | formal, written | verbal | legal, valid | void </B><I>The contract was declared void. </I><B>| enforceable, unenforceable </B><I>(law) </I><B>| big, important, major | lucrative | business, commercial | employment, maintenance, research, service | catering, construction, haulage | marriage </B> </P> <P> <U> VERB + CONTRACT </U><B> have </B><I>Many workers do not have written contracts. </I><B>| bid for, tender for </B><I>Eighteen companies are bidding for the contract. </I><B>| award (sb), give sb | get, win | lose </B><I>The firm lost the contract to a large London company. </I><B>| negotiate </B><I>She managed to negotiate a permanent contract with the firm. </I><B>| draw up, write | conclude, enter into, make, sign </B><I>He entered into a contract with his former employer. </I><B>| carry out, execute </B><I>the firm carrying out the construction contract </I><B>| cancel, end, repudiate </B><I>(law)</I>, <B>rescind </B><I>(law)</I>, <B>terminate </B><I>Either party can terminate the contract at any time. </I><B>| be subject to </B><I>The offer has been accepted, subject to contract </I>(= the agreement is not legally binding before contracts are signed)</B><I>. </I><B>| be in breach of, break, violate </B><I>If you go on strike you will be in breach of contract. </I><B>| enforce </B><I>(law) </I><B>| exchange </B><I>(law) When a house is auctioned the successful bidder must exchange contracts immediately and pay a deposit. </I> </P> <P> <U> CONTRACT + VERB </U><B> expire </B><I>The contract expires at the end of next year. </I><B>| be worth sth </B><I>a series of major contracts worth millions of pounds </I> </P> <P> <U> CONTRACT + NOUN </U><B> worker </B>(= one on a fixed-term contract) <B>| law </B> </P> <P> <U> PREP. </U><B> in a/the ~ </B><I>They put a clause in the contract stipulating that the work should be finished by next month. </I><B>| on a ~ </B><I>He's on a three-year fixed-term contract. </I><B>| under ~ (to) </B><I>At that stage of her career she was still under contract to one of the big Hollywood studios. </I><B>| under a/the ~ </B><I>Under her contract of employment, Mrs Lee could not be required to work at a different site. </I><B>| ~ between </B><I>the contract between the employer and the employee </I><B>| ~ for </B><I>They won a contract for the delivery of five fighter planes. </I><B>| ~ with </B><I>Do you have a contract with your employer? </I> </P> <P> <U> PHRASES </U><B> (a) breach of contract </B><I>The company is being sued for breach of contract. </I><B>| a contract of employment/sale </B><I>You should make sure that you have a formal contract of employment. </I><B>| the terms of a contract </B><I>By using cheaper materials, the company has broken the terms of its contract. </I><B>| under the terms of a contract </B><I>Under the terms of the contract the job should have been finished yesterday. </I> </P>",
-                "noun"
+                "",
+                "<p> <u> ADV. </u></p>\n<p> <u> PHRASES </u></p>",
+                "<p> <u> ADV. </u><b> immediately | directly | personally | by email, by phone/telephone </b><i>He can be contacted by phone on the telephone number given below. </i> </p>\n<p> <u> PHRASES </u><b> do not hesitate to contact sb </b><i>Please do not hesitate to contact me if you have any questions. </i> </p>",
+                "verb"
             ],
             "flags": 0,
             "guid": "sW`a^9sZ4(",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "333.4.2",
-                "contact",
-                "person you know who can help you\nagreement to kill sb",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> good, useful, valuable | business, personal </B> </P> <P> <U> VERB + CONTACT </U><B> have </B><I>He has a lot of good contacts in the music industry. </I><B>| build up, make </B><I>It takes time to build up contacts. I made a lot of useful business contacts at the conference. </I> </P> <P> <U> VERB + CONTRACT </U><B> take out | have out </B><I>He has a contract out on you. </I> </P> <P> <U> CONTRACT + NOUN </U><B> killer, killing </B> </P> <P> <U> PREP. </U><B> ~ on </B><I>She took out a contract on her ex-husband. </I> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "QEasTrnm|M",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "333.4.3",
-                "contact",
-                "when people/things touch each other",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + CONTACT </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + VERB </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> physical, sexual </B><I>The disease is transmitted through physical contact. </I> </P> <P> <U> VERB + CONTACT </U><B> come into </B><I>Do not let the glue come into contact with water. </I> </P> <P> <U> PREP. </U><B> in ~ </B><I>For a brief moment their lips were in contact. </I><B>| on ~ </B><I>The light will go out on contact with water. </I><B>| ~ between </B><I>There should be no contact between the separate samples. </I><B>| ~ with</B> </P> </DIV><DIV class=\"item\"><P class=\"word\"><B>contact </B><I>verb </I> </P> <P> <U> ADV. </U><B> immediately | directly | personally | by email, by phone/telephone </B><I>He can be contacted by phone on the telephone number given below. </I> </P> <P> <U> PHRASES </U><B> do not hesitate to contact sb </B><I>Please do not hesitate to contact me if you have any questions. </I> </P> </DIV><DIV class=\"item\"><P class=\"word\"><B>contract </B><I>noun </I> </P> <P> <SUP> 1 </SUP> <TT> written agreement </TT> </P> <P> <U> ADJ. </U><B> long-term, permanent | casual, fixed-term, short-term | three-year, two-year, etc. | formal, written | verbal | legal, valid | void </B><I>The contract was declared void. </I><B>| enforceable, unenforceable </B><I>(law) </I><B>| big, important, major | lucrative | business, commercial | employment, maintenance, research, service | catering, construction, haulage | marriage </B> </P> <P> <U> VERB + CONTRACT </U><B> have </B><I>Many workers do not have written contracts. </I><B>| bid for, tender for </B><I>Eighteen companies are bidding for the contract. </I><B>| award (sb), give sb | get, win | lose </B><I>The firm lost the contract to a large London company. </I><B>| negotiate </B><I>She managed to negotiate a permanent contract with the firm. </I><B>| draw up, write | conclude, enter into, make, sign </B><I>He entered into a contract with his former employer. </I><B>| carry out, execute </B><I>the firm carrying out the construction contract </I><B>| cancel, end, repudiate </B><I>(law)</I>, <B>rescind </B><I>(law)</I>, <B>terminate </B><I>Either party can terminate the contract at any time. </I><B>| be subject to </B><I>The offer has been accepted, subject to contract </I>(= the agreement is not legally binding before contracts are signed)</B><I>. </I><B>| be in breach of, break, violate </B><I>If you go on strike you will be in breach of contract. </I><B>| enforce </B><I>(law) </I><B>| exchange </B><I>(law) When a house is auctioned the successful bidder must exchange contracts immediately and pay a deposit. </I> </P> <P> <U> CONTRACT + VERB </U><B> expire </B><I>The contract expires at the end of next year. </I><B>| be worth sth </B><I>a series of major contracts worth millions of pounds </I> </P> <P> <U> CONTRACT + NOUN </U><B> worker </B>(= one on a fixed-term contract) <B>| law </B> </P> <P> <U> PREP. </U><B> in a/the ~ </B><I>They put a clause in the contract stipulating that the work should be finished by next month. </I><B>| on a ~ </B><I>He's on a three-year fixed-term contract. </I><B>| under ~ (to) </B><I>At that stage of her career she was still under contract to one of the big Hollywood studios. </I><B>| under a/the ~ </B><I>Under her contract of employment, Mrs Lee could not be required to work at a different site. </I><B>| ~ between </B><I>the contract between the employer and the employee </I><B>| ~ for </B><I>They won a contract for the delivery of five fighter planes. </I><B>| ~ with </B><I>Do you have a contract with your employer? </I> </P> <P> <U> PHRASES </U><B> (a) breach of contract </B><I>The company is being sued for breach of contract. </I><B>| a contract of employment/sale </B><I>You should make sure that you have a formal contract of employment. </I><B>| the terms of a contract </B><I>By using cheaper materials, the company has broken the terms of its contract. </I><B>| under the terms of a contract </B><I>Under the terms of the contract the job should have been finished yesterday. </I> </P> <P> <SUP> 2 </SUP> <TT> agreement to kill sb </TT> </P> <P> <U> VERB + CONTRACT </U><B> take out | have out </B><I>He has a contract out on you. </I> </P> <P> <U> CONTRACT + NOUN </U><B> killer, killing </B> </P> <P> <U> PREP. </U><B> ~ on </B><I>She took out a contract on her ex-husband. </I> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "Rcx#F=o|m!",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "333.4.4",
-                "contact",
-                "",
-                "",
-                "",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "mna3X|9&oT",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "333.4.5",
-                "contact",
-                "",
-                "",
-                "",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "-/ZAL_Q2(",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -4067,7 +4003,7 @@
                 "",
                 "<P> <U> ADJ. </U> </P>",
                 "<P> <U> ADJ. </U><B> close, trusted | junior, senior | female, male | professional, work | academic, business, medical | cabinet, parliamentary</B> </P>",
-                "<DIV class=\"item\"><P class=\"word\"><B>colleague </B><I>noun</I> </B> </P>"
+                "noun"
             ],
             "flags": 0,
             "guid": "IR,{CX))fC",
@@ -4080,7 +4016,7 @@
             "fields": [
                 "335.1",
                 "dimension",
-                "(often <B>dimensions</B>) measurements",
+                "(often <b>dimensions</b>) measurements",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + DIMENSION </U> </P> <P> <U> PHRASES </U> </P>",
                 "<P> <U> ADJ. </U><B> approximate | exact, precise </B><I>It is important to measure the exact dimensions of the room. </I><B>| overall | compact </B><I>Despite the unit's compact dimensions, there's still plenty of room for expansion. </I><B>| considerable </B><I>a structure of considerable dimensions </I><B>| fourth, second, third </B><I>The fourth dimension, time, is also finite in extent. </I><B>| physical, space/spatial, temporal/time | horizontal, vertical </B> </P> <P> <U> VERB + DIMENSION </U><B> check, measure </B><I>Can we just check the dimensions of the bedroom again? </I> </P> <P> <U> PHRASES </U><B> in two/three dimensions </B><I>a model in three dimensions </I> </P>",
                 "noun"
@@ -4177,9 +4113,9 @@
                 "336.2",
                 "account",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ACCOUNT </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + ACCOUNT </U> </P> <P> <U> PREP. </U> </P> <P> <U> VERB + ACCOUNT </U> </P> <P> <U> ACCOUNT + VERB </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + ACCOUNT </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P>",
-                "",
-                "</DIV><DIV class=\"item\"><P class=\"word\"><B>account </B><I>verb </I><B>PHRASAL VERBS account for sth </B> </P>"
+                "<p><u>ADV.</u><br></p>",
+                "<p> <u> ADV. </u><b> fully </b><i>The increase can be fully accounted for. </i><b>| partly </b><i>The differences in achievement between the pupils are partly accounted for by differences in age. </i> </p>",
+                "verb"
             ],
             "flags": 0,
             "guid": "B,jk`a^~)#",
@@ -4222,7 +4158,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "339.1",
+                "339",
                 "locate",
                 "find the position of sb/sth",
                 "<P> <U> ADV. </U> </P> <P> <U> VERB + LOCATE </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
@@ -4273,7 +4209,7 @@
                 "342.1",
                 "ideal",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + IDEAL </U> </P>",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
                 "<P> <U> VERBS </U><B> be, look, seem, sound | make sth </B><I>The hotel's size makes it ideal for large conferences. </I><B>| consider sth </B> </P> <P> <U> ADV. </U><B> absolutely | almost | less than </B><I>Language learning often takes place in a less than ideal environment. </I> </P> <P> <U> PREP. </U><B> for </B><I>The houses are absolutely ideal for families with young children. </I> </P>",
                 "adj."
             ],
@@ -4289,7 +4225,7 @@
                 "342.2",
                 "ideal",
                 "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + IDEAL </U> </P>",
+                "<p><u>ADJ.</u><br></p> <p> <u> VERB + IDEAL </u> </p>",
                 "<P> <U> ADJ. </U><B> high, lofty, noble </B><I>Sam was a real leader who had high moral ideals. </I><B>| unattainable </B><I>This is not an unattainable ideal. </I><B>| aesthetic, artistic, ethical, moral, political | democratic, liberal, revolutionary, socialist </B> </P> <P> <U> VERB + IDEAL </U><B> be committed to, be devoted to, believe in, cling to, espouse, have, support </B><I>They still clung to the old ideals. </I><B>| pursue, strive for | achieve, attain, be true to, conform to, live up to </B><I>A journalist should always live up to the ideals of truth, decency, and justice. </I><B>| fall short of </B><I>This agreement falls far short of the ideal. </I><B>| abandon, betray </B><I>She was accused of betraying her political ideals. </I><B>| embody, reflect </B><I>the democratic ideals embodied in the charter </I> </P>",
                 "noun"
             ],
@@ -4306,7 +4242,7 @@
                 "philosophy",
                 "study of ideas about the meaning of life",
                 "<P> <U> ADJ. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> ancient, classical | contemporary, modern | Eastern, Western | experimental, moral, natural </B><I>(historical)</I>, <B>political, religious, social </B> </P> <P> <U> PHRASES </U><B> the philosophy of history/religion/science </B> <br><a href=\"#\" class=\"show_hide\" id=\"plus\">More information about SUBJECT</a>  <DIV class=\"slidingDiv\"> <a><I>SUBJECT:</I></a>  <P><B>of study do, read, study ~ do ~ </B>is more commonly used with school subjects (but may also be used with university subjects): <I>She did maths, physics and chemistry at school. </I></P> <P><B>study ~ </B>is used with both school and university subjects: <I>He studied German at school. She went on to study mathematics at university. </I></P> <P><B>read ~</B>is only used with university subjects and is quite formal: <I>She was educated privately and at Pembroke College, where she read classics. </I></P> <P><B>lecture in, teach ~ </B><I>He taught music at a school in Edinburgh. </I></P> <P>Other verbs used with <I>subject</I> can also be used with particular subjects of study: <I>Half the students take geography at A level. We offer accounting as a subsidiary course. </I></P> <P><B>~ degree, a degree/diploma in ~ </B><I>a law degree a higher diploma in fine art </I></P> <P><B>~ class, course, lecture, lesson </B><I>The genetics lectures are on a different campus. </I></P> <P><B>~ department, a/the department of ~ </B><I>All enquiries should be made to the Department of Architecture. </I></P> <P><B>~ graduate, student, undergraduate </B><I>Some architecture graduates gain further qualifications in specialist fields. </I></P> <P><B>~ lecturer, teacher, tutor </B><I>He's an English teacher at Highland Road School. </I></P> <P><B>~ professor, (a) professor of ~ </B><I>She's professor of linguistics at the University of Wales. </I></P> <P><B>the study of ~ </B><I>The study of philosophy helps you to think critically. </I></P> <P><B>in ~ </B><I>He got As in history and art. </I></P> <P></P> </DIV>   </P>",
+                "<p> <u> ADJ. </u><b> ancient, classical | contemporary, modern | Eastern, Western | experimental, moral, natural </b><i>(historical)</i>, <b>political, religious, social </b> </p> <p> <u> PHRASES </u><b> the philosophy of history/religion/science </b> <br><a href=\"http://www.ozdic.com/collocation-dictionary/philosophy#\">More information about SUBJECT</a> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -4817,7 +4753,7 @@
                 "365.2",
                 "monitor",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> MONITOR + VERB </U> </P> <P> <U> ADJ. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + MONITOR </U> </P> <P> <U> PREP. </U> </P>",
+                "<p><u>ADV.</u><br></p> <p> <u> VERB + MONITOR </u> </p> <p> <u> PREP. </u> </p>",
                 "<P> <U> ADV. </U><B> carefully, closely, rigorously, strictly </B><I>Television advertising is strictly monitored. </I><B>| regularly, routinely, systematically | constantly, continuously | effectively, properly | automatically </B> </P> <P> <U> VERB + MONITOR </U><B> be able to </B><I>We will now be able to monitor its progress more closely. </I><B>| continue to </B><I>The authorities will continue to monitor the situation. </I> </P> <P> <U> PREP. </U><B> for </B><I>The workers are constantly monitored for exposure to radiation. </I> </P>",
                 "verb"
             ],
@@ -4961,7 +4897,7 @@
                 "371.1",
                 "encounter",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ENCOUNTER </U> </P> <P> <U> ENCOUNTER + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + ENCOUNTER </U> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + ENCOUNTER </u> </p> <p> <u> ENCOUNTER + VERB </u> </p> <p> <u> PREP.</u></p>",
                 "<P> <U> ADJ. </U><B> brief </B><I>I did not see him again, except for a brief encounter on a train. </I><B>| casual, chance, unexpected </B><I>It was a chance encounter that led to the setting up of the new political party. </I><B>| close </B><I>I decided not to risk a second close encounter with the snakes. </I><B>| face-to-face | direct </B><I>The press conference was her first direct encounter with the media. </I><B>| unpleasant, violent | social </B><I>the language we use in everyday social encounters </I><B>| sexual </B> </P> <P> <U> VERB + ENCOUNTER </U><B> have </B><I>I had my first encounter with the president two years ago. </I> </P> <P> <U> ENCOUNTER + VERB </U><B> take place </B> </P> <P> <U> PREP. </U><B> ~ between </B><I>violent encounters between police and protesters </I><B>| ~ with </B><I>my first encounter with my new boss </I> </P>",
                 "noun"
             ],
@@ -4977,7 +4913,7 @@
                 "371.2",
                 "encounter",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ENCOUNTER </U> </P> <P> <U> ENCOUNTER + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + ENCOUNTER </U> </P>",
+                "<p><u>ADV.</u><br></p> <p> <u> VERB + ENCOUNTER </u> </p>",
                 "<P> <U> ADV. </U><B> commonly, frequently, often, regularly </B><I>Walruses were commonly encountered in the Shetland Islands until quite recently. </I><B>| rarely | inevitably </B> </P> <P> <U> VERB + ENCOUNTER </U><B> be likely to </B><I>What are the difficulties you are most likely to encounter? </I> </P>",
                 "verb"
             ],
@@ -5009,7 +4945,7 @@
                 "373.1",
                 "attribute",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ATTRIBUTE </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + ATTRIBUTE</u></p>",
                 "<P> <U> ADJ. </U><B> chief, great, key, main | desirable, essential, important, necessary, positive, useful </B><I>Patience is an essential attribute for a teacher. </I><B>| common | divine, human | cultural, personal, physical, social </B><I>Her physical attributes were much admired. </I> </P> <P> <U> VERB + ATTRIBUTE </U><B> have, possess</B> </P>",
                 "noun"
             ],
@@ -5025,7 +4961,7 @@
                 "373.2",
                 "attribute",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ATTRIBUTE </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<p><u>ADV.</u><br></p> <p> <u> PREP. </u> </p> <p> <u> PHRASES </u> </p>",
                 "<P> <U> ADV. </U><B> directly | solely | in large measure, largely, mainly | in part, partly </B> </P> <P> <U> PREP. </U><B> to </B><I>They claim that one i</I>n </B><I>twenty deaths can be directl</I>y </B><I>attributed to air pollution</I>. </B> </P> <P> <U> PHRASES </U><B> be commonly/generally/usually/widely attributed to </B><I>The goals commonly attributed to management are status, power, salary and security. </I> </P>",
                 "verb"
             ],
@@ -5121,7 +5057,7 @@
                 "375.2",
                 "waste",
                 "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + WASTE </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + WASTE </U> </P> <P> <U> WASTE + VERB </U> </P> <P> <U> WASTE + NOUN </U> </P> <P> <U> ADJ. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + WASTE </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<p><u>ADV.</u><br></p> <p> <u> VERB + WASTE </u> </p> <p> <u> PREP. </u> </p> <p> <u> PHRASES </u> </p>",
                 "<P> <U> ADV. </U><B> (not) entirely, (not) totally </B><I>In the end her efforts were not entirely wasted. </I><B>| just, simply </B><I>You're just wasting your breath. She never listens. </I><B>| largely </B> </P> <P> <U> VERB + WASTE </U><B> can't afford to, not want to </B><I>He didn't want to waste valuable time in idle gossip. </I><B>| be/seem a shame to </B><I>It seems a shame to waste this good food. </I><B>| not be going to </B><I>I'm not going to waste any more time on the problem. </I> </P> <P> <U> PREP. </U><B> on </B><I>Don't waste your money on a hotel room. </I> </P> <P> <U> PHRASES </U><B> no time to waste </B><I>Hurry up?there's no time to waste! </I> </P>",
                 "verb"
             ],
@@ -5297,60 +5233,12 @@
                 "381.1.2",
                 "assert",
                 "make other people recognize your rights/authority\nwhat a company owns",
-                "<P> <U> ADV. </U> </P> <P> <U> VERB + ASSERT </U> </P> <P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + ASSET </U> </P> <P> <U> ASSET + VERB </U> </P> <P> <U> ASSET + NOUN </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADV. </U><B> successfully </B><I>They successfully asserted their right to protect their homes. </I> </P> <P> <U> VERB + ASSERT </U><B> need to | be determined to, wish to </B><I>She wished to assert her independence from her parents. </I><B>| seek to, try to | be able to, manage to </B><I>He managed to assert his power over the media. </I><B>| be unable to, fail to</B> </P> </DIV><DIV class=\"item\"><P class=\"word\"><B>asset </B><I>noun </I> </P> <P> <SUP> 1 </SUP> <TT> useful person/thing </TT> </P> <P> <U> ADJ. </U><B> big, considerable, great, important, invaluable, precious, priceless, real, tremendous, useful, valuable </B><I>The teachers are the school's biggest asset. </I><B>| best, main, major, principal, prize | cultural </B><I>The tourist industry requires that the country's cultural assets be made more accessible. </I><B>| natural </B><I>Bow windows are a natural asset to any room and should be highlighted. </I> </P> <P> <U> PREP. </U><B> ~ to </B><I>She will be an asset to any school she attends. </I> </P> <P> <SUP> 2 </SUP> <TT> what a company owns </TT> </P> <P> <U> ADJ. </U><B> combined, total | gross | net </B><I>The company's net assets are worth millions. </I><B>| business, company, corporate | commercial, financial | current, disposable, liquid </B><I>Liquid assets can be sold more quickly. </I><B>| capital, fixed, non-cash, non-monetary, physical, property | tangible | intangible | depreciable, wasting | hidden </B><I>They have hidden assets in banks around the world. </I><B>| foreign, overseas | personal | national, public, state </B> </P> <P> <U> VERB + ASSET </U><B> have, hold, own, possess </B><I>assets held by the company in Asia </I><B>| transfer </B><I>He transferred all his assets into his wife's name. </I><B>| accumulate, acquire, buy | dispose of, realize, sell </B><I>The business disposed of all its capital assets. </I><B>| increase, reduce </B><I>The company has increased its UK assets. </I><B>| freeze </B><I>The courts can order a company's assets to be frozen. </I><B>| release, unfreeze </B> </P> <P> <U> ASSET + VERB </U><B> appreciate, grow </B><I>Net assets have grown to $169 million. </I><B>| decline, depreciate, dwindle </B> </P> <P> <U> ASSET + NOUN </U><B> value | management | sale | stripping </B><I>measures to prevent asset stripping </I> </P> <P> <U> PHRASES </U><B> assets and liabilities</B> </P>",
+                "<p> <u> ADV. </u> </p>\n<p> <u> VERB + ASSERT</u></p>",
+                "<p> <u> ADV. </u><b> successfully </b><i>They successfully asserted their right to protect their homes. </i> </p> <p> <u> VERB + ASSERT </u><b> need to | be determined to, wish to </b><i>She wished to assert her independence from her parents. </i><b>| seek to, try to | be able to, manage to </b><i>He managed to assert his power over the media. </i><b>| be unable to, fail to</b> </p> ",
                 "verb"
             ],
             "flags": 0,
             "guid": "Oo/lIN0M_:",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "381.1.3",
-                "assert",
-                "",
-                "",
-                "",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "w1k]r:N3tU",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "381.1.4",
-                "assert",
-                "",
-                "",
-                "",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "uyGR=w-{nx",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "381.2",
-                "assert",
-                "",
-                "<P> <U> ADV. </U> </P> <P> <U> ADV. </U> </P> <P> <U> VERB + ASSERT </U> </P> <P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + ASSET </U> </P> <P> <U> ASSET + VERB </U> </P> <P> <U> ASSET + NOUN </U> </P> <P> <U> PHRASES </U> </P>",
-                "",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "tUN{sK1[$%",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -5582,31 +5470,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "392.1",
+                "392",
                 "german",
                 "",
                 "",
                 "",
-                "<DIV class=\"item\"><P class=\"word\"><B>German measles </B><I>noun</I> &gt; Special page at ILLNESS </B> </P>"
+                ""
             ],
             "flags": 0,
             "guid": "ib4Y#sBexR",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "392.2",
-                "german",
-                "",
-                "",
-                "",
-                "</DIV><DIV class=\"item\"><P class=\"word\"><B>German </B><I>noun</I>"
-            ],
-            "flags": 0,
-            "guid": "Q$6cEqA{MR",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -9255,6 +9127,38 @@
             ],
             "flags": 0,
             "guid": "v:`2V[nk[<",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "381.2.1",
+                "asset",
+                "useful person/thing",
+                "<p> <u> ADJ. </u></p>\n<p> <u> PREP. </u></p>",
+                "<p> <u> ADJ. </u><b> big, considerable, great, important, invaluable, precious, priceless, real, tremendous, useful, valuable </b><i>The teachers are the school's biggest asset. </i><b>| best, main, major, principal, prize | cultural </b><i>The tourist industry requires that the country's cultural assets be made more accessible. </i><b>| natural </b><i>Bow windows are a natural asset to any room and should be highlighted. </i> </p>\n<p> <u> PREP. </u><b> ~ to </b><i>She will be an asset to any school she attends. </i> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "h^(c~aQ4=a",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "381.2.2",
+                "asset",
+                "what a company owns",
+                "<p> <u> ADJ. </u></p>\n<p> <u> VERB + ASSET </u></p>\n<p> <u> ASSET + VERB </u></p>\n<p> <u> ASSET + NOUN </u></p>",
+                "<p> <u> ADJ. </u><b> combined, total | gross | net </b><i>The company's net assets are worth millions. </i><b>| business, company, corporate | commercial, financial | current, disposable, liquid </b><i>Liquid assets can be sold more quickly. </i><b>| capital, fixed, non-cash, non-monetary, physical, property | tangible | intangible | depreciable, wasting | hidden </b><i>They have hidden assets in banks around the world. </i><b>| foreign, overseas | personal | national, public, state </b> </p>\n<p> <u> VERB + ASSET </u><b> have, hold, own, possess </b><i>assets held by the company in Asia </i><b>| transfer </b><i>He transferred all his assets into his wife's name. </i><b>| accumulate, acquire, buy | dispose of, realize, sell </b><i>The business disposed of all its capital assets. </i><b>| increase, reduce </b><i>The company has increased its UK assets. </i><b>| freeze </b><i>The courts can order a company's assets to be frozen. </i><b>| release, unfreeze </b> </p>\n<p> <u> ASSET + VERB </u><b> appreciate, grow </b><i>Net assets have grown to $169 million. </i><b>| decline, depreciate, dwindle </b> </p>\n<p> <u> ASSET + NOUN </u><b> value | management | sale | stripping </b><i>measures to prevent asset stripping </i> </p>\n<p> <u> PHRASES </u><b> assets and liabilities</b> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "jr-1D1JBv1",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         }
