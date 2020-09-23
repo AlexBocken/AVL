@@ -3491,7 +3491,7 @@
                 "experiment",
                 "",
                 "<p><u>ADV.</u><br></p> <p> <u> VERB + EXPERIMENT </u> </p> <p> <u> PREP. </u> </p>",
-                "<P> <U> ADV. </U><B> successfully </B> </P> <P> <U> VERB + EXPERIMENT </U><B> begin to | continue to </B> </P> <P> <U> PREP. </U><B> on </B><I>They experimented successfully on the plants to discover disease-resistant varieties. </i><br><B>| with </B><I>We have experimented with various different designs of kite. </i><br> </P>",
+                "<p> <u> ADV. </u><b> successfully </b> </p> <p> <u> VERB + EXPERIMENT </u><b> begin to <br>| continue to </b> </p> <p> <u> PREP. </u><b> on </b><i>They experimented successfully on the plants to discover disease-resistant varieties. </i><br><b>| with </b><i>We have experimented with various different designs of kite. </i><br> </p>",
                 "verb"
             ],
             "flags": 0,
@@ -3539,7 +3539,7 @@
                 "evaluate",
                 "",
                 "<P> <U> ADV. </U> </P> <P> <U> VERB + EVALUATE </U> </P>",
-                "<P> <U> ADV. </U><B> fully, properly, thoroughly | carefully, systematically </B><I>The evidence should be carefully evaluated. </i><br><B>| critically | positively </B><I>The role of stay-at-home mother is more positively evaluated in working-class communities. </i><br> </P> <P> <U> VERB + EVALUATE </U><B> aim to, attempt to, be designed to | help (to) </B><I>to help evaluate the success of the campaign </i><br><B>| be used to </B><I>criteria used to evaluate employees' performance </i><br><B>| be difficult to, be hard to</B> </P>",
+                "<p> <u> ADV. </u><b> fully, properly, thoroughly | carefully, systematically </b><i>The evidence should be carefully evaluated. </i><br><b>| critically | positively </b><i>The role of stay-at-home mother is more positively evaluated in working-class communities. </i><br> </p> <p> <u> VERB + EVALUATE </u><b> aim to, attempt to, be designed to | help (to) </b><i>to help evaluate the success of the campaign </i><br><b>| be used to </b><i>criteria used to evaluate employees' performance </i><br><b>| be difficult to, be hard to</b> </p>",
                 "verb"
             ],
             "flags": 0,
@@ -3842,9 +3842,9 @@
                 "333.1",
                 "contact lens",
                 "",
-                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT LENS </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT </u> </p> <p> <u> PREP. </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT </u> </p> <p> <u> PREP. </u> </p> <p> <u> ADV. </u> </p> <p> <u> PHRASES </u> </p> <p> <u> ADJ. </u> </p> <p> <u> VERB + CONTRACT </u> </p> <p> <u> CONTRACT + VERB </u> </p> <p> <u> CONTRACT + NOUN </u> </p> <p> <u> PREP. </u> </p> <p> <u> PHRASES </u> </p> <p> <u> VERB + CONTRACT </u> </p> <p> <u> CONTRACT + NOUN </u> </p> <p> <u> PREP. </u> </p>",
-                "",
-                "<DIV class=\"item\"><P class=\"word\"><B>contact lens </B><I>noun</I> </B> </P>"
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CONTACT LENS</u></p>",
+                "<p> <u> ADJ. </u><b> gas-permeable, hard, soft | daily-wear | tinted </b> </p>\n<p> <u> VERB + CONTACT LENS </u><b> have in, wear | put in | remove, take out | clean, disinfect | rinse, soak</b> </p>",
+                "noun"
             ],
             "flags": 0,
             "guid": "GVd]-_;Owh",
@@ -3903,7 +3903,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "333.3.1",
+                "333.4.1",
                 "contract",
                 "written agreement",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + VERB </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
@@ -3919,7 +3919,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "333.3.2",
+                "333.4.2",
                 "contract",
                 "agreement to kill sb",
                 "<P> <U> VERB + CONTRACT </U> </P> <P> <U> CONTRACT + NOUN </U> </P> <P> <U> PREP. </U> </P>",
@@ -3935,7 +3935,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "333.4.1",
+                "333.3",
                 "contact",
                 "",
                 "<p> <u> ADV. </u></p>\n<p> <u> PHRASES </u></p>",
@@ -4035,7 +4035,7 @@
                 "account",
                 "accounts: record of money a business earns/spends",
                 "<P> <U> VERB + ACCOUNT </U> </P> <P> <U> ACCOUNT + VERB </U> </P>",
-                "<P> <U> VERB + ACCOUNT </U><B> do, keep </B><I>Try to keep accurate accounts. </i><br><B>| audit, check, look at | submit </B><I>Your accounts will need to be submitted to the tax office. </i><br> </P> <P> <U> ACCOUNT + VERB </U><B> be in order </B><I>The accounts are all in order. </i><br> &gt; Special page at BUSINESS </B> </P>",
+                "<p> <u> VERB + ACCOUNT </u><b> do, keep </b><i>Try to keep accurate accounts. </i><br><b>| audit, check, look at | submit </b><i>Your accounts will need to be submitted to the tax office. </i><br> </p> <p> <u> ACCOUNT + VERB </u><b> be in order </b><i>The accounts are all in order. </i></p>",
                 "noun"
             ],
             "flags": 0,
@@ -4050,7 +4050,7 @@
                 "336.1.4",
                 "account",
                 "arrangement with a shop/business",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ACCOUNT </U> </P> <P> <U> PREP. </U> </P> <P> <U> ADV. </U> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + ACCOUNT </u> </p> <p> <u> PREP.</u></p>",
                 "<P> <U> ADJ. </U><B> expense </B>(= an arrangement to charge expenses to your own employers) <I>taking clients for expense account lunches </i><br> </P> <P> <U> VERB + ACCOUNT </U><B> have | open </B><I>I'd like to open an account, please. </i><br><B>| close | pay off, settle </B><I>It is best to settle the account each month. </i><br> | charge sth to, debit (sth from), put sth on </B><I>Charge this to my account, please. </i><br><B>| credit sth to </B> </P> <P> <U> PREP. </U><B> on ~ </B><I>Ring for a cab on account. </i><br><B>| ~ at/with </B><I>an account with a large store </i><br> </P> </DIV><DIV class=\"item\"><P class=\"word\"><B>account </B><I>verb </i><br><B>PHRASAL VERBS account for sth </B> </P> <P> <U> ADV. </U><B> fully </B><I>The increase can be fully accounted for. </i><br><B>| partly </B><I>The differences in achievement between the pupils are partly accounted for by differences in age. </i><br> </P>",
                 "noun"
             ],
@@ -4065,7 +4065,7 @@
             "fields": [
                 "336.2",
                 "account",
-                "",
+                "account for sth",
                 "<p><u>ADV.</u><br></p>",
                 "<p> <u> ADV. </u><b> fully </b><i>The increase can be fully accounted for. </i><br><br><b>| partly </b><i>The differences in achievement between the pupils are partly accounted for by differences in age. </i><br><br> </p>",
                 "verb"
@@ -5170,8 +5170,8 @@
                 "381.1.1",
                 "assert",
                 "say sth clearly and firmly\nuseful person/thing",
-                "<P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADV. </U><B> boldly, confidently, emphatically, forcefully, strongly </B><I>The report asserts confidently that the industry will grow. </i><br><B>| directly, explicitly | simply </B><I>He had no real evidence?he simply asserted that what he said was true. </i><br><B>| repeatedly | rightly </B> </P> <P> <U> ADJ. </U><B> big, considerable, great, important, invaluable, precious, priceless, real, tremendous, useful, valuable </B><I>The teachers are the school's biggest asset. </i><br><B>| best, main, major, principal, prize | cultural </B><I>The tourist industry requires that the country's cultural assets be made more accessible. </i><br><B>| natural </B><I>Bow windows are a natural asset to any room and should be highlighted. </i><br> </P> <P> <U> PREP. </U><B> ~ to </B><I>She will be an asset to any school she attends. </i><br> </P>",
+                "<p> <u> ADV.</u></p>",
+                "<p> <u> ADV. </u><b> boldly, confidently, emphatically, forcefully, strongly </b><i>The report asserts confidently that the industry will grow. </i><br><b>| directly, explicitly | simply </b><i>He had no real evidence?he simply asserted that what he said was true. </i><br><b>| repeatedly | rightly</b></p>",
                 "verb"
             ],
             "flags": 0,
@@ -5491,7 +5491,7 @@
                 "manner",
                 "way of doing sth/behaving",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + MANNER </U> </P> <P> <U> MANNER + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> conventional, customary, normal, standard, time-honoured, traditional, usual | correct </B><I>You are not approaching the problem in the correct manner. </i><br><B>| appropriate, satisfactory </B><I>I did my best to behave in the appropriate manner. </i><br><B>| prudent, reasonable, responsible, safe, sensible </B><I>Chemical waste must be disposed of in an environmentally-responsible manner. </i><br><B>| efficient, productive, profitable | logical, methodical, orderly, rational, systematic | consistent, uniform | objective | arbitrary, haphazard </B><I>Files have been stored in such a haphazard manner that they are impossible to find. </i><br><B>| professional | constructive, positive </B><I>The dispute could have been handled in a more constructive manner. </i><br><B>| non-violent, peaceful | straightforward | suspicious </B><I>He was behaving in a highly suspicious manner. </i><br><B>| light-hearted | casual, easy, informal, leisurely, relaxed | formal | calm | off-hand </B><I>He answered in such an off-hand manner that I wondered if he'd misheard me. </i><br><B>| confident, decisive | dignified | diffident, mild, quiet, shy | charming, cheerful, friendly, jovial, kindly, pleasant, sympathetic | abrasive, aggressive, arrogant, unfriendly, unpleasant | forthright | brusque, cold | businesslike, no-nonsense </B><I>His no-nonsense manner gave him the reputation of being a good doctor. </i><br><B>| authoritarian, autocratic, high-handed | condescending, dismissive | authoritative </B><I>The authoritative manner in which he talked concealed his ignorance. </i><br><B>| bedside, telephone </B><I>He's a good doctor with a sympathetic bedside manner. She has a very pleasant telephone manner. </i><br> </P> <P> <U> VERB + MANNER </U><B> have | adopt </B><I>He tends to adopt a condescending manner when talking to young women. </i><br><B>| act in </B><I>She accused the teacher of not acting in a professional manner. </i><br> </P> <P> <U> MANNER + VERB </U><B> change </B><I>His manner changed abruptly when he heard how much I wanted. </i><br><B>| conceal sth </B><I>Her brusque m </i><br><B>| suggest sth </B><I>He was not as loutish as his manner suggested. </i><br> </P> <P> <U> PREP. </U><B> in a/the ~ </B><I>The inspectio</i><br>n </B><I>was conducted in a thoroughl</i><br>y </B><I>professional manner. </i><br><B>| in the ~ of </B><I>He lectured us in the manner of </i><br>a </B><I>headmaster. </i><br><B>| in your ~ </B><I>Ther</i><br>e </B><I>was something in his manner tha</i><br>t </B><I>I found very irritating</i><br>. </B> </P> <P> <U> PHRASES </U><B> in a timely manner </B><I>Al</i><br>l </B><I>claims must be settled in </i><br>a </B><I>professional and timely manner. </i><br>| <B>in no uncertain manner </B><I>He tol</i><br>d </B><I>her in no uncertain manner tha</i><br>t </B><I>her behaviour was unacceptable</i><br>. </P>",
+                "<p> <u> ADJ. </u><b> conventional, customary, normal, standard, time-honoured, traditional, usual | correct </b><i>You are not approaching the problem in the correct manner. </i><br><b>| appropriate, satisfactory </b><i>I did my best to behave in the appropriate manner. </i><br><b>| prudent, reasonable, responsible, safe, sensible </b><i>Chemical waste must be disposed of in an environmentally-responsible manner. </i><br><b>| efficient, productive, profitable | logical, methodical, orderly, rational, systematic | consistent, uniform | objective | arbitrary, haphazard </b><i>Files have been stored in such a haphazard manner that they are impossible to find. </i><br><b>| professional | constructive, positive </b><i>The dispute could have been handled in a more constructive manner. </i><br><b>| non-violent, peaceful | straightforward | suspicious </b><i>He was behaving in a highly suspicious manner. </i><br><b>| light-hearted | casual, easy, informal, leisurely, relaxed | formal | calm | off-hand </b><i>He answered in such an off-hand manner that I wondered if he'd misheard me. </i><br><b>| confident, decisive | dignified | diffident, mild, quiet, shy | charming, cheerful, friendly, jovial, kindly, pleasant, sympathetic | abrasive, aggressive, arrogant, unfriendly, unpleasant | forthright | brusque, cold | businesslike, no-nonsense </b><i>His no-nonsense manner gave him the reputation of being a good doctor. </i><br><b>| authoritarian, autocratic, high-handed | condescending, dismissive | authoritative </b><i>The authoritative manner in which he talked concealed his ignorance. </i><br><b>| bedside, telephone </b><i>He's a good doctor with a sympathetic bedside manner. She has a very pleasant telephone manner. </i><br> </p> <p> <u> VERB + MANNER </u><b> have | adopt </b><i>He tends to adopt a condescending manner when talking to young women. </i><br><b>| act in </b><i>She accused the teacher of not acting in a professional manner. </i><br> </p> <p> <u> MANNER + VERB </u><b> change </b><i>His manner changed abruptly when he heard how much I wanted. </i><br><b>| conceal sth </b><i>Her brusque m </i><br><b>| suggest sth </b><i>He was not as loutish as his manner suggested. </i><br> </p> <p> <u> PREP. </u><b> in a/the ~ </b><i>The inspection was conducted in a thoroughl</i>y <i>professional manner. </i><br><b>| in the ~ of </b><i>He lectured us in the manner of </i>a <i>headmaster. </i><br><b>| in your ~ </b><i>Ther</i>e <i>was something in his manner that I found very irritating.</i><br> </p> <p> <u> PHRASES </u><b> in a timely manner </b><i>All claims must be settled in </i>a <i>professional and timely manner. </i><br>| <b>in no uncertain manner </b><i>He told her in no uncertain manner that her behaviour was unacceptable.</i><br> </p>",
                 "noun"
             ],
             "flags": 0,
@@ -5507,7 +5507,7 @@
                 "manner",
                 "manners: polite behaviour",
                 "<P> <U> ADJ. </U> </P> <P> <U> VERB + MANNER </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> beautiful, charming, excellent, good, impeccable, nice, perfect </B><I>It's not good manners to stare at people. </i><br><B>| bad | table </B><I>His children have no table manners. </i><br> </P> <P> <U> VERB + MANNER </U><B> have | teach sb </B><I>Didn't your parents teach you any manners? </i><br><B>| learn | forget </B><I>I'm sorry, I was forgetting my manners. Can I offer you a drink? </i><br> </P> <P> <U> PHRASES </U><B> have the (good) manners to do sth </B><I>He could at least have had the manners to answer my letter. </i><br><B>| a lack of manners </B><I>Her lack of manners is quite appalling. </i><br> </P>",
+                "<p> <u> ADJ. </u><b> beautiful, charming, excellent, good, impeccable, nice, perfect </b><i>It's not good manners to stare at people. </i><br><b>| bad | table </b><i>His children have no table manners. </i><br> </p> <p> <u> VERB + MANNER </u><b> have | teach sb </b><i>Didn't your parents teach you any manners? </i><br><b>| learn | forget </b><i>I'm sorry, I was forgetting my manners. Can I offer you a drink? </i><br> </p> <p> <u> PHRASES </u><b> have the (good) manners to do sth </b><i>He could at least have had the manners to answer my letter. </i><br><b>| a lack of manners </b><i>Her lack of manners is quite appalling. </i><br> </p>",
                 "noun"
             ],
             "flags": 0,
