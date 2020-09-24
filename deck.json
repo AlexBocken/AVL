@@ -53,13 +53,13 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
-    "mid": 1595177823327,
+    "mid": "1600972870203",
     "name": "AVL",
     "note_models": [
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "css": "* {\n    padding: 0;\n    margin: 0;\n}\n\nbody {\n}\n\na, body {\n    font-family: \"Segoe UI Light\",\"Segoe UI\",Segoe,Tahoma,Arial,Verdana,sans-serif;\n}\n\n  container {\n        margin-bottom: 50px;\n        margin: auto;\n    }\n\n\n.card {\n        /*padding-left: 180px;\n        width: 920px;*/\n        margin-top: 10px;\n        line-height: 20px;\n        float: left;\n\t\tfont-family: Arial,Verdana,sans-serif;\n    }\n\n        .card p {\n            padding: 10px 0;\n\t\t\tposition: relative;\n        }\n\n            .card p.word {\n                font-size: 30px;\n                border-bottom: 1px dashed #D2D0C8;\n                color: #00AEEF;\n            }\n                .card p.word i {\n                    color: #AAAAAA;\n                    font-size: 16px;\n                    font-style: normal;\n                }\n\n                    .card p.word i:before {\n                        content: \"-\";\n                        padding-right: 10px;\n                        color: #666666;\n                    }\n\n            .card p u {\n                font-size: 18px;\n                text-decoration: none;\n                color: #FF8A00;\n            }\n\n\t\t\t.card p tt{\n                font-family: Arial,Verdana,sans-serif;\n    \t\t\t\tfont-size: 22px;\n    \t\t\t\tmargin-left: 30px;\n            }\n            .card p .ex {\n                border-left: 1px solid #CCCCCC;\n                display: block;\n                padding-top: 5px;\n\t\t\t\tmargin-top:2px;\n                padding-left: 20px;\n            }\n\n                .card p .excontent {\n                    border-left: 1px solid #CCCCCC;\n                    /*display: block;*/\n                    padding-bottom: 5px;\n                    padding-left: 40px;\n                }\n\n                    .card p .excontent:before {\n                        content: \"-\";\n                        padding-right: 5px;\n                    }\n\n#bottom-left {\n  text-align:left;\n  position:fixed;\n  bottom: 20px;\n  left: 20px;\n  width: 33vw;\n}\n",
+            "css": "* {\n    padding: 0;\n    margin: 0;\n}\n\nbody {\n}\n\na, body {\n    font-family: \"Segoe UI Light\",\"Segoe UI\",Segoe,Tahoma,Arial,Verdana,sans-serif;\n}\n\n  container {\n        margin-bottom: 50px;\n        margin: auto;\n    }\n\n\n.card {\n        /*padding-left: 180px;\n        width: 920px;*/\n        margin-top: 10px;\n        line-height: 20px;\n        float: left;\n\t\tfont-family: Arial,Verdana,sans-serif;\n    }\n\n        .card p {\n            padding: 10px 0;\n\t\t\tposition: relative;\n        }\n\n            .card p.word {\n                font-size: 30px;\n                border-bottom: 1px dashed #D2D0C8;\n                color: #00AEEF;\n            }\n                .card p.word i {\n                    color: #AAAAAA;\n                    font-size: 16px;\n                    font-style: normal;\n                }\n\n                    .card p.word i:before {\n                        content: \"-\";\n                        padding-left: 5px;\n                        color: #AAAAAA;\n                    }\n\n            .card p u {\n                font-size: 18px;\n                text-decoration: none;\n                color: #FF8A00;\n            }\n\n\t\t\t.card p tt{\n                font-family: Arial,Verdana,sans-serif;\n    \t\t\t\tfont-size: 22px;\n    \t\t\t\tmargin-left: 30px;\n            }\n            .card p .ex {\n                border-left: 1px solid #CCCCCC;\n                display: block;\n                padding-top: 5px;\n\t\t\t\tmargin-top:2px;\n                padding-left: 20px;\n            }\n\n                .card p .excontent {\n                    border-left: 1px solid #CCCCCC;\n                    /*display: block;*/\n                    padding-bottom: 5px;\n                    padding-left: 40px;\n                }\n\n                    .card p .excontent:before {\n                        content: \"-\";\n                        padding-right: 5px;\n                    }\n\n#no-front {\n color: #AAAAAA;\n  font-family: Arial,Verdana,sans-serif;\n  font-size: 18px;\n  text-align:right;\n  position:fixed;\n  bottom: 20px;\n  right: 20px;\n}\n\n\n#no-back {\n color: #AAAAAA;\n  font-family: Arial,Verdana,sans-serif;\n  font-size: 18px;\n  text-align:right;\n  position:relatve;\n  bottom: 20px;\n  right: 20px;\n}\n",
             "flds": [
                 {
                     "font": "Helvetica",
@@ -109,7 +109,7 @@
                 {
                     "font": "Helvetica",
                     "media": [],
-                    "name": "pof",
+                    "name": "pos",
                     "ord": 5,
                     "rtl": false,
                     "size": 20,
@@ -139,7 +139,7 @@
             ],
             "tmpls": [
                 {
-                    "afmt": "<P class=\"word\"><B>{{word}}</B><TT>{{meaning}}</TT><I>{{pof}}</I></P>\n{{backside}}\n<div style=font-size: 20px;'>{{no}}</div>",
+                    "afmt": "<P class=\"word\"><B>{{word}}</B><TT>{{meaning}}</TT><I>{{pos}}</I></P>\n{{backside}}\n<div id='no-back'>{{no}}</div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -147,7 +147,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<P class=\"word\"><B>{{word}}</B><TT>{{meaning}}</TT><I>{{pof}}</I></P>\n{{categories}}\n<div id=\"bottom-left\">{{no}} </div>"
+                    "qfmt": "<P class=\"word\"><B>{{word}}</B><TT>{{meaning}}</TT><I>{{pos}}</I></P>\n{{categories}}\n<div id=\"no-front\">{{no}} </div>"
                 }
             ],
             "type": 0,
@@ -232,22 +232,6 @@
             ],
             "flags": 0,
             "guid": "OEu94=O{a0",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "203.1",
-                "complex",
-                "",
-                "<p> <u> VERBS </u> </p> <p> <u> ADV.</u></p>",
-                "<p> <u> VERBS </u><b> be, look, seem, sound | become </b> </p> <p> <u> ADV. </u><b> enormously, especially, exceedingly, exceptionally, extraordinarily, extremely, highly, hugely, immensely, incredibly, infinitely, particularly, very </b><i>This is a highly complex matter. </i><br><br><b>| increasingly | fairly, quite, rather, relatively, somewhat | surprisingly | unnecessarily | technically </b><i>technically complex surgery </i><br><br> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "F!WUfve?m^",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -431,22 +415,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "209.1",
-                "estimate",
-                "",
-                "<p> <u> ADJ. </u> </p> <p> <u> VERB + ESTIMATE </u> </p> <p> <u> ESTIMATE + VERB </u> </p> <p> <u> PREP.</u></p>",
-                "<p> <u> ADJ. </u><b> official, unofficial | current, recent </b><i>Current estimates suggest that supplies will run out within six months. </i><br><b>| early, initial, preliminary | accurate, fair, good, realistic, reasonable, reliable | best </b><i>Flight times in the brochure are based on our best estimate, and will be confirmed as soon as possible. </i><br><b>| approximate, rough | conservative, low </b><i>I think 15,000 will turn out to be a very low estimate. </i><br><b>| high </b><i>According to the highest estimate, over 100,000 men died in the battle. </i><br><b>| optimistic, pessimistic | cost </b> </p> <p> <u> VERB + ESTIMATE </u><b> make </b><i>Can you make an estimate of the numbers involved? </i><br><b>| give (sb), provide (sb with), submit </b><i>Three firms submitted estimates for the work. </i><br><b>| revise </b> </p> <p> <u> ESTIMATE + VERB </u><b> be based on sth | indicate sth, predict sth, show sth, suggest sth </b><i>One estimate suggests that 30,000 jobs may be lost. </i><br><b>| put sth at </b><i>Some estimates put the figure as high as 50%. </i><br><b>| range, vary </b><i>Cost estimates vary from $50,000 to $200,000. </i><br> </p> <p> <u> PREP. </u><b> according to an/the ~ </b><i>According to the revised estimate, four million people will be without homes. </i><br><b>| at an ~ </b><i>Even at a conservative estimate, there is a lot of work to be done. </i><br><b>| in an/the ~ </b><i>In his first estimate, he suggested a figure of </i>£<i>5,000. </i><br><b>| ~ by, ~ from </b><i>According to an estimate by a leading newspaper, she earns </i>£<i>40 million a year. </i><br><b>| ~ for </b><i>We will send you an estimate for the repairs. </i><br><b>| ~ of </b><i>an estimate of profits an estimate of </i>£<i>300 </i><br> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "PZ)5RI/2FX",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "209.2",
                 "estimate",
                 "",
@@ -456,38 +424,6 @@
             ],
             "flags": 0,
             "guid": "k~4qbkY4@+",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "210.1.1",
-                "negative",
-                "only thinking about/showing sb/sth's bad qualities",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<p> <u> VERBS </u><b> be, feel, seem, sound | become | remain </b> </p> <p> <u> ADV. </u><b> distinctly, extremely, strongly, terribly, very </b><i>the strongly negative implications of these survey results. Their attitude was terribly negative. </i><br><b>| completely, entirely, exclusively, purely, totally, wholly </b><i>She spoke in entirely negative terms. </i><br><b>| largely, mainly, overwhelmingly | fairly, rather, slightly, somewhat | apparently | essentially </b><i>Critical thinking is essentially negative as it seeks to dissect and not to build. </i><br><b>| generally </b> </p> <p> <u> PREP. </u><b> about </b><i>He's been rather negative about the idea. </i><br> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "wlQ^T~iYJ*",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "210.1.2",
-                "negative",
-                "showing that sth has not happened/been found",
-                "<P> <U> VERBS </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> VERBS </U><B> be, prove, test </B><I>The breathalyser test proved negative. He tested negative for HIV infection. </i><br> </P> <P> <U> PREP. </U><B> for </B><I>The urine tests were negative for protein. </i><br> </P>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "nl*$#rWH$(",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -607,22 +543,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "213.1.3",
-                "challenge",
-                "invitation to compete",
-                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CHALLENGE </u> </p> <p> <u> PREP.</u></p>",
-                "<p> <u> ADJ. </u><b> leadership, title </b><i>his title challenge to the heavyweight champion </i><br> </p> <p> <u> VERB + CHALLENGE </u><b> issue, mount </b><i>plans to mount a leadership challenge within the party </i><br><b>| accept, take up </b><i>I accepted his challenge to a game of chess. </i><br><b>| beat off, fight off </b><i>Our team will have to fight off the challenge from better trained teams. </i><br> </p> <p> <u> PREP. </u><b> ~ from </b><i>a challenge from the other political party </i><br> </p> ",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "yj?<R*g>/N",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "213.2",
                 "challenger",
                 "",
@@ -680,22 +600,6 @@
             ],
             "flags": 0,
             "guid": "`7mv@2.;l",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "214.1",
-                "principle",
-                "basic general rule",
-                "<p> <u> ADJ. </u> </p> <p> <u> VERB + PRINCIPLE </u> </p> <p> <u> PRINCIPLE + VERB </u> </p> <p> <u> PREP. </u> </p>",
-                "<p> <u> ADJ. </u><b> basic, broad, central, fundamental, general </b><i>the basic principles of car maintenance </i><br><br><b>| cardinal, essential, key | universal | democratic, legal, market, political, scientific, theoretical </b> </p> <p> <u> VERB + PRINCIPLE </u><b> establish, formulate, lay down | apply | explain </b> </p> <p> <u> PRINCIPLE + VERB </u><b> apply </b><i>This principle applies to all kinds of selling. </i><br><br><b>| underlie sth, underpin sth </b><i>the principles underlying Western philosophy </i><br><br> </p> <p> <u> PREP. </u><b> in ~ </b><i>I agree with you in principle, but we'll need to discuss the details. </i><br><br><b>| ~ behind </b><i>She went on to explain the principles behind what she was doing. </i><br><br> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "nR0)64t2,U",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -767,38 +671,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "217.1",
-                "depend",
-                "be affected by sth",
-                "<p> <u> ADV. </u> </p> <p> <u> VERB + DEPEND </u> </p>",
-                "<p> <u> ADV. </u><b> crucially, greatly, very much </b><i>The future of the company will depend crucially on how consumers respond. </i><br><br><b>| entirely, solely | largely, mainly | partly, rather, to some extent | ultimately </b><i>Whether or not we can go ultimately depends on the weather. </i><br><br> </p> <p> <u> VERB + DEPEND </u><b> seem to </b><i>The outcome seems to depend on the type of soil used. </i><br><br> </p>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "vT|WNRti$>",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "217.2",
-                "depend",
-                "need",
-                "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<p> <u> ADV. </u><b> heavily | entirely, solely </b> </p> <p> <u> PREP. </u><b> for </b><i>She depends entirely on her parents for money. </i><br><br> </p>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "JETPY~jW_G",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "218",
                 "creation",
                 "",
@@ -808,22 +680,6 @@
             ],
             "flags": 0,
             "guid": "P/GDMpd:gO",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "219",
-                "integration",
-                "",
-                "<p> <u> ADJ. </u> </p> <p> <u> QUANT. </u> </p> <p> <u> VERB + INTEGRATION </u> </p> <p> <u> PREP. </u> </p> <p> <u> PHRASES</u></p>",
-                "<p> <u> ADJ. </u><b> true | complete, full | close, seamless | further, greater, improved, increased | rapid | economic, monetary, political, racial, social </b><i>We are working to bring about closer political integration in the EU. </i><br><br><b>| internal | systems </b><i>(computing) </i><br><br> </p> <p> <u> QUANT. </u><b> degree, level </b> </p> <p> <u> VERB + INTEGRATION </u><b> achieve, bring about | accelerate, encourage, facilitate, promote, speed up, stimulate </b><i>measures to promote the social integration of mentally handicapped people </i><br><br><b>| require | lead to </b> </p> <p> <u> PREP. </u><b> ~ between </b><i>integration between research and higher education </i><br><br><b>| ~ into </b><i>the integration of disabled pupils into the general education system </i><br><br><b>| ~ with </b><i>He called for greater integration with Europe. </i><br><br><b>| ~ within </b><i>economic integration within the three communities </i><br><br> </p> <p> <u> PHRASES </u><b> a move towards integration </b><i>a move towards greater internal integration in Europe </i><br><br><b>| a need for integration, a process of integration</b></p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "Mk_`|vQKaN",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -952,22 +808,6 @@
             ],
             "flags": 0,
             "guid": "BDO&IwgfI3",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "227.1",
-                "explore",
-                "<div>travel around an area&nbsp;</div>",
-                "<p><u>VERB + EXPLORE</u><br></p> <p> <u> PREP.</u></p>",
-                "<p> <u> VERB + EXPLORE </u><b> be keen to, want to, wish to | be free to </b><i>In the afternoon you'll be free to explore a little on your own. </i><br><br> </p>\n<p> <u> PREP. </u><b> for </b><i>exploring for oil </i><br><br> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "NY5_l.ayO5",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -1279,38 +1119,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "238.1.2",
-                "basis",
-                "principle/reason",
-                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> whole </B> </P> <P> <U> PREP. </U><B> on the ~ of </B><I>We made our decision on the basis of the information we had. </i><br><B>| ~ for </B><I>The whole basis for your argument is false. </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "ku,XEYgKww",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "238.1.3",
-                "basis",
-                "way sth is done/organized",
-                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> regular | daily, monthly, weekly, etc. </B><I>Staff are employed on a monthly basis. </i><br><B>| permanent, temporary | casual, part-time, voluntary | commercial </B> </P> <P> <U> PREP. </U><B> on a &hellip; ~</B> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "hHJjjOw`!*",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "238.2.1",
                 "basis",
                 "starting point",
@@ -1320,38 +1128,6 @@
             ],
             "flags": 0,
             "guid": "tojmef9+NL",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "238.2.2",
-                "basis",
-                "principle/reason",
-                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> whole </B> </P> <P> <U> PREP. </U><B> on the ~ of </B><I>We made our decision on the basis of the information we had. </i><br><B>| ~ for </B><I>The whole basis for your argument is false. </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "cZ?}w@k=+F",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "238.2.3",
-                "basis",
-                "way sth is done/organized",
-                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> regular | daily, monthly, weekly, etc. </B><I>Staff are employed on a monthly basis. </i><br><B>| permanent, temporary | casual, part-time, voluntary | commercial </B> </P> <P> <U> PREP. </U><B> on a &hellip; ~</B> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "FocAK:q~[n",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -1896,22 +1672,6 @@
             ],
             "flags": 0,
             "guid": "qdZ&~el6]6",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "261",
-                "encourage",
-                "",
-                "<P> <U> ADV. </U> </P> <P> <U> VERB + ENCOURAGE </U> </P> <P> <U> PREP. </U> </P>",
-                "<p> <u> ADV. </u><b> greatly, strongly </b><i>We were greatly encouraged by the support we received. </i><br><br><b>| actively, positively </b><i>The government must actively encourage investment in these areas. </i><br><br> </p> <p> <u> VERB + ENCOURAGE </u><b> aim to | try to | be designed to </b><i>These questions are designed to encourage debate. </i><br><br><b>| be likely to </b><i>Newspapers should not publish material that is likely to encourage discrimination on the grounds of race or colour. </i><br><br> </p> <p> <u> PREP. </u><b> in </b><i>Her head of department encouraged her in her research work. </i><br><br> </p>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "FRp#]&+/jl",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -2543,38 +2303,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "282.2.2",
-                "advance",
-                "development",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ADVANCE </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> big, considerable, dramatic, enormous, great, spectacular, substantial, tremendous | important, major, notable, remarkable, significant | rapid, steady </B><I>rapid advances in science and technology </i><br><B>| recent | economic, educational, medical, political, scientific, social, technical, technological | theoretical </B> </P> <P> <U> VERB + ADVANCE </U><B> make </B><I>We need more money if we are to make any further advances in this area of science. </i><br> </P> <P> <U> PREP. </U><B> in ~ </B><I>two major advances in orthopaedic medicine </i><br><B>| on ~ </B><I>an advance on the existing techniques </i><br><B>| towards ~ </B><I>an advance towards a better understanding of God </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "Cx5M*Kkv/*",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "282.2.3",
-                "advance",
-                "money",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ADVANCE </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> large | cash </B> </P> <P> <U> VERB + ADVANCE </U><B> give, pay </B><I>The publishers have paid me an advance. </i><br><B>| get, receive </B> </P> <P> <U> PREP. </U><B> ~ of </B><I>an advance of </i><br>&pound;</B><I>10,000 </i><br><B>| ~ on </B><I>He was paid </i><br>&pound;</B><I>5,000 as an advance on royalties. </i><br></P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "M~VDeAayTX",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "282.2.4",
                 "advance",
                 "advances: sexual",
@@ -2600,22 +2328,6 @@
             ],
             "flags": 0,
             "guid": "Ho-5V1nl=(",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "282.3.2",
-                "advance",
-                "develop",
-                "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADV. </U><B> considerably, greatly, significantly | rapidly </B> </P> <P> <U> PREP. </U><B> beyond </B><I>Society needs to advance beyond prejudice and superstition. </i><br> </P>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "G3[_@CCah0",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -2975,22 +2687,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "295.2",
-                "content",
-                "",
-                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
-                "<p> <u> VERBS </u><b> appear, be, feel, seem </b> </p>\n<p> <u> ADV. </u><b> perfectly, quite, utterly </b><i>I'm perfectly content just to lie in the sun. </i><br><br><b>| fairly, reasonably, relatively | apparently | curiously, strangely </b><i>She felt curiously content. </i><br><br> </p>\n<p> <u> PREP. </u><b> with </b><i>She seemed quite content with the idea. </i><br><br> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "v}7kY;!`{;",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "296",
                 "device",
                 "",
@@ -3064,38 +2760,6 @@
             ],
             "flags": 0,
             "guid": "ow?gtf8Xr2",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "301.1",
-                "difficult",
-                "",
-                "<p> <u> VERBS </u> </p> <p> <u> ADV.</u></p>",
-                "<p> <u> VERBS </u><b> be, look, prove, seem, sound | become, get </b><i>It is getting more and more difficult to find a job. </i><br><br><b>| make sth </b><i>The fog made driving very difficult. </i><br><br><b>| find sth </b> </p>\n<p> <u> ADV. </u><b> exceedingly, extraordinarily, extremely, incredibly, particularly, really, very | doubly </b><i>Her disability made taking care of the home and raising a family doubly difficult. </i><br><br><b>| increasingly | a bit, quite, rather | notoriously </b><i>Birth rates are notoriously difficult to predict. </i><br><br> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "le%^(7KTe*",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "301.2",
-                "difficulty",
-                "",
-                "<p><u>ADJ.</u><br></p> <p> <u> QUANT. </u> </p> <p> <u> VERB + DIFFICULTY </u> </p> <p> <u> DIFFICULTY + VERB </u> </p> <p> <u> PREP. </u> </p>",
-                "<p> <u> ADJ. </u><b> considerable, enormous, grave, great, major, real, serious, severe </b><i>We had enormous difficulty in getting hold of the right equipment. </i><br><br><b>| insurmountable | increasing </b><i>questions of increasing difficulty </i><br><br><b>| inherent </b><i>the difficulties inherent in treating overdose patients </i><br><br><b>| particular, special </b><i>English spelling presents special difficulties for foreign learners. </i><br><br><b>| economic, financial | practical, technical </b><i>I think we've managed to overcome most of the practical difficulties. </i><br><br><b>| behavioural, emotional, learning </b><i>children with learning difficulties </i><br><br> </p> <p> <u> QUANT. </u><b> level </b><i>The games have various different levels of difficulty. </i><br><br> </p> <p> <u> VERB + DIFFICULTY </u><b> encounter, experience, face, get into, have, run into </b><i>Among the difficulties encountered was a lack of cooperation on the part of the authorities. Anyone experiencing difficulty with radio reception should call us on the new helpline. Let me know if you have any difficulties. I had little difficulty in persuading the others to come. The scheme has run into serious difficulties. </i><br><br><b>| cause, create, make, present </b><i>Will it cause any difficulties if I go early? She is always making difficulties for herself. </i><br><br><b>| cope with, deal with, overcome, resolve, solve, surmount | avoid </b><i>how to avoid technical difficulties </i><br><br><b>| be fraught with </b><i>The situation was fraught with difficulty. </i><br><br> </p> <p> <u> DIFFICULTY + VERB </u><b> arise, crop up </b><i>Difficulties arise when people fail to consult their colleagues. </i><br><br><b>| lie (in sth) </b><i>The difficulty lies in identifying the precise nature of the problem. </i><br><br> </p> <p> <u> PREP. </u><b> despite a/the ~ </b><i>Despite all the difficulties, he still remains optimistic. </i><br><br><b>| in ~ </b><i>We could see that the swimmer was in difficulties. </i><br><br><b>| with/without ~ </b><i>We crossed the border without any difficulty. Life in the city was not without its difficulties. </i><br><br><b>| ~ in </b><i>She had difficulty in starting her car. </i><br><br><b>| ~ of </b><i>the difficulty of finding affordable accommodation </i><br><br><b>| ~ with </b><i>having difficulty with the engine </i><br><br> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "L8Mm_r=1i*",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -3679,22 +3343,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "328",
-                "industrial",
-                "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + INDUSTRIAL ACTION </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADJ. </U><B> continuing | unlawful </B> </P> <P> <U> VERB + INDUSTRIAL ACTION </U><B> take | threaten | call for | vote for | start | step up </B><I>The union is considering stepping up its industrial action. </i><br><B>| suspend | stop | take part in, be/become involved in </B><I>His research indicates an increase in the number of women involved in industrial action. </i><br><B>| support </B> </P> <P> <U> PREP. </U><B> ~ against </B><I>The union is threatening industrial action against the company. </i><br><B>| ~ by </B><I>industrial action by railway workers </i><br><B>| ~ in support of </B><I>industrial action in support of demands for a ten per cent salary adjustment </i><br><B>| ~ over </B><I>to take industrial action over pay </i><br> </P>",
-                "industrial action"
-            ],
-            "flags": 0,
-            "guid": "p3hb-`Gb()",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "329.1",
                 "revolution",
                 "changing the political system",
@@ -3720,86 +3368,6 @@
             ],
             "flags": 0,
             "guid": "jDMKx**!a-",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "329.3",
-                "revolution",
-                "movement around sth; one complete turn",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + REVOLUTION </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<p> <u> ADJ. </u><b> complete, full </b><i>One full revolution of the knob will open the hatch. </i><br><br> </p> <p> <u> VERB + REVOLUTION </u><b> make </b> </p> <p> <u> PREP. </u><b> through a ~ </b><i>The earth turns through one complete revolution approximately every twenty-four hours. </i><br><br><b>| ~ about/around/round </b><i>How long does it take for the planet Jupiter to make a complete revolution around the sun? </i><br><br> </p> <p> <u> PHRASES </u><b> revolutions a/per minute </b></p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "bMjCd,5,?d",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "330.1",
-                "fundamental",
-                "",
-                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
-                "<p> <u> VERBS </u><b> be, seem | remain | consider sth, regard sth as </b><i>We consider these freedoms fundamental to democracy. </i><br><br> </p> <p> <u> ADV. </u><b> truly, very | absolutely, quite </b><i>This principle is clear and absolutely fundamental. </i><br><br><b>| fairly, rather </b> </p> <p> <u> PREP. </u><b> to </b><i>Improved funding is fundamental to the success of the project. </i><br><br> </p> <p> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "kTu=AU[owS",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "330.2",
-                "fundamentals",
-                "",
-                "<p><u>ADJ.</u><br></p> <p> <u> VERB + FUNDAMENTALS </u> </p>",
-                "<u> ADJ. </u><b> basic | very </b><i>The new law strikes at the very fundamentals of a free press. </i><br><br>  <p> <u> VERB + FUNDAMENTALS </u><b> teach | grasp, learn, master </b><i>We quickly mastered the basic fundamentals of navigation. </i><br><br><b>| go back to, return to </b><i>The government went back to fundamentals, concentrating on avoiding food shortages. </i><br><br> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "cdXvK.x(!B",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "331.1",
-                "essential",
-                "",
-                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
-                "<p> <u> VERBS </u><b> appear, be, seem | become </b><i>It is becoming almost essential for students to have a second language. </i><br><br><b>| remain | make sth </b><i>Increased competition makes it essential for the business to innovate. </i><br><br><b>| consider sth, deem sth, regard sth as, see sth as, think sth </b><i>Do you consider these textbooks essential for the course? </i><br><br> </p> <p> <u> ADV. </u><b> really | absolutely | almost, virtually | fairly | by no means </b><i>Although useful, the accessories are by no means essential. </i><br><br> </p> <p> <u> PREP. </u><b> for </b><i>the skills essential for success </i><br><br><b>| to </b><i>He believed that some form of religion was essential to human life. </i><br><br> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "BSmrj?!8Ex",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "331.2",
-                "essentials",
-                "",
-                "<p><u>ADJ.</u><br></p> <p> <u> VERB + ESSENTIALS </u> </p>",
-                " <p> <u> ADJ. </u><b> bare, basic </b><i>the bare essentials for existence </i><br><br> </p> <p> <u> VERB + ESSENTIALS </u><b> grasp </b><i>Just try and grasp the essentials of the argument. </i><br><br><b>| provide </b><i>The relief agencies are trying to provide food and other basic essentials. </i><br><br><b>| concentrate on </b><i>Don't let's worry about the details at this stage. Let's concentrate on the essentials. </i><br><br> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "HjBt<xs|DU",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -3935,22 +3503,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "333.3",
-                "contact",
-                "",
-                "<p> <u> ADV. </u></p>\n<p> <u> PHRASES </u></p>",
-                "<p> <u> ADV. </u><b> immediately | directly | personally | by email, by phone/telephone </b><i>He can be contacted by phone on the telephone number given below. </i><br><br> </p>\n<p> <u> PHRASES </u><b> do not hesitate to contact sb </b><i>Please do not hesitate to contact me if you have any questions. </i><br><br> </p>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "sW`a^9sZ4(",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "334",
                 "colleague",
                 "",
@@ -4063,22 +3615,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "336.2",
-                "account",
-                "account for sth",
-                "<p><u>ADV.</u><br></p>",
-                "<p> <u> ADV. </u><b> fully </b><i>The increase can be fully accounted for. </i><br><br><b>| partly </b><i>The differences in achievement between the pupils are partly accounted for by differences in age. </i><br><br> </p>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "B,jk`a^~)#",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "337",
                 "statistics",
                 "",
@@ -4184,22 +3720,6 @@
             ],
             "flags": 0,
             "guid": "F.6<>DWC]",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "343.1",
-                "philosophy",
-                "study of ideas about the meaning of life",
-                "<P> <U> ADJ. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<p> <u> ADJ. </u><b> ancient, classical | contemporary, modern | Eastern, Western | experimental, moral, natural </b><i>(historical)</i><br><br>, <b>political, religious, social </b> </p> <p> <u> PHRASES </u><b> the philosophy of history/religion/science </b> <br><a href=\"http://www.ozdic.com/collocation-dictionary/philosophy#\">More information about SUBJECT</a> </p>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "r!=u#=z@Nc",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -5183,22 +4703,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "381.1.2",
-                "assert",
-                "make other people recognize your rights/authority\nwhat a company owns",
-                "<p> <u> ADV. </u> </p>\n<p> <u> VERB + ASSERT</u></p>",
-                "<p> <u> ADV. </u><b> successfully </b><i>They successfully asserted their right to protect their homes. </i><br><br> </p> <p> <u> VERB + ASSERT </u><b> need to | be determined to, wish to </b><i>She wished to assert her independence from her parents. </i><br><br><b>| seek to, try to | be able to, manage to </b><i>He managed to assert his power over the media. </i><br><br><b>| be unable to, fail to</b> </p> ",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "Oo/lIN0M_:",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "382",
                 "assistance",
                 "",
@@ -5615,6 +5119,790 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "405.1.1",
+                "professional",
+                "connected with a job",
+                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P>",
+                "<P> <U> VERBS </U><B> be </B> </P> <P> <U> ADV. </U><B> purely, strictly </B><I>He insisted that his relationship with the duchess was purely professional. </i><br> </P>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "c[vye[ktQ}",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "405.1.2",
+                "professional",
+                "extremely skilled",
+                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P>",
+                "<P> <U> VERBS </U><B> be, look </B><I>Their designs look very professional. </i><br> </P> <P> <U> ADV. </U><B> extremely, highly, really, truly, very </B><I>He dealt with the problem in a highly professional way. </i><br><B>| thoroughly | increasingly | almost | quite, rather </B> </P>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "QwAzE?_R|G",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "405.1.3",
+                "professional",
+                "done as a paid job, not a hobby",
+                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P>",
+                "<P> <U> VERBS </U><B> be | become, turn </B> </P> <P> <U> ADV. </U><B> fully </B><I>He wants to turn fully professional. </i><br> </P>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "LAp;Gh?SGV",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "447.1",
+                "conventional",
+                "",
+                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> QUANT. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> CONVENTION + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "",
+                "<DIV class=\"item\"><P class=\"word\"><B>conventional </B><I>adj</I> </P>"
+            ],
+            "flags": 0,
+            "guid": "Q:@$,9gG3$",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "447.2",
+                "conventional",
+                "",
+                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> QUANT. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> CONVENTION + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "o3KXxQdu+z",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "471.2.1",
+                "shape",
+                "physical outline",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + SHAPE </U> </P> <P> <U> SHAPE + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<P> <U> ADJ. </U><B> basic, simple </B><I>The children cut the paper into various simple shapes. </i><br><B>| characteristic, distinctive </B><I>I recognized the distinctive shape of a Boeing-747. </i><br><B>| curious, interesting, unusual, weird | awkward </B><I>The desk was an awkward shape and wouldn't fit through the door. </i><br><B>| original | geometric/geometrical, regular, symmetrical | complex | asymmetrical, irregular | odd, random </B><I>tiles of random shape </i><br><B>| solid, three-dimensional | aerodynamic | angular, arch, circular, cone/conical, cylindrical, diamond, dome, egg, elliptical, elongated, hemispherical, hexagonal, oblong, pentagonal, pointed, pyramid/pyramidal, rectangular, round, spherical, triangular, wedge | rounded, smooth | arrow, banana, cross, pear, star, T, etc. </B><I>The road forms an L shape. The bruise was a sort of mushroom shape. </i><br><B>| blurred, ghostly, shadowy, vague | huge, massive | black, dark, grey | human | body </B><I>You can't change your natural body shape. </i><br> </P> <P> <U> VERB + SHAPE </U><B> cut out, draw, make, trace </B><I>First draw the rough shape of your chosen animal. Fold the paper to make the shape of a cone. </i><br><B>| cut sth into, make sth in, produce sth in </B><I>a cheese similar to Brie but produced in a different shape </i><br><B>| come in, have </B><I>Tables come in various shapes. </i><br><B>| assume, make, take on </B><I>Ordinary things assumed different shapes in the mist. </i><br><B>| keep, retain </B><I>These garments will retain their shape even with repeated washing. </i><br><B>| regain | change | lose | distort </B><I>The wide-angle lens distorts shapes. </i><br><B>| distinguish, make out, see </B><I>I could just make out the shapes of animals in the field. </i><br> </P> <P> <U> SHAPE + VERB </U><B> appear, emerge, loom </B><I>Ghostly shapes loomed out of the fog. </i><br> </P> <P> <U> PREP. </U><B> in the ~ of </B><I>a doormat in the shape of a cat </i><br> </P> <P> <U> PHRASES </U><B> out of shape </B><I>The bicycle had been battered out of shape. </i><br><B>| oblong/rectangular/hexagonal, etc. in shape </B><I>The island is roughly circular in shape. </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "PF{u<s2]c$",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "471.2.3",
+                "shape",
+                "good or bad condition",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + SHAPE </U> </P>",
+                "<P> <U> ADJ. </U><B> fine, good, great | bad, poor | physical </B><I>He's 64, but he's in better physical shape than I am. </i><br> </P> <P> <U> VERB + SHAPE </U><B> get sb/sth into, knock/lick/whip sb/sth into </B><I>Get your body into shape for the summer! Leave the boy with me?I'll soon knock him into shape! </i><br><B>| be in, keep in, stay in </B><I>You are in pretty good shape for your age. She likes to stay in shape. </i><br><B>| be out of</B> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "AFUv#8/Ta2",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "503.1.3",
+                "guide",
+                "person",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + GUIDE </U> </P>",
+                "<P> <U> ADJ. </U><B> tour, tourist </B><I>Our tour guide showed us around the old town. </i><br> </P> <P> <U> VERB + GUIDE </U><B> act as, be </B><I>He agreed to go with them and act as their guide. </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "Z7e$5yx?!",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "503.2.3",
+                "guide",
+                "help sb move",
+                "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADV. </U><B> gently </B><I>He took her arm, gently guiding her. </i><br> </P> <P> <U> PREP. </U><B> across, along, etc. </B><I>She guided him across the busy road. </i><br><B>| to/towards </B><I>He guided her hand to his face. </i><br> </P>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "uZNC%bT2Yx",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "515",
+                "expansion",
+                "",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + EXPANSION </U> </P> <P> <U> EXPANSION + VERB </U> </P> <P> <U> EXPANSION + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<P> <U> ADJ. </U><B> big, considerable, enormous, great, huge, major, massive, significant, substantial, vast </B><I>The company was now set for major expansion. </i><br><B>| maximum | dramatic, marked, remarkable, unprecedented </B><I>an unprecedented expansion in linguistic studies at British universities </i><br><B>| rapid | gradual | steady | continued, further, sustained | eastward, westward, etc. | global, international, overseas, worldwide | successful | aggressive </B><I>The board decided to embark on aggressive overseas expansion. </i><br><B>| healthy | planned, proposed | uncontrolled | business, commercial, company | economic, industrial | colonial, imperial, territorial | population | urban </B> </P> <P> <U> VERB + EXPANSION </U><B> show </B><I>The economy is still showing healthy expansion. </i><br><B>| allow (for), provide for </B><I>The design of the front pockets allows for expansion. </i><br><B>| be ripe for </B><I>a ready-made hotel chain ripe for further expansion </i><br><B>| be set for </B><I>The company is set for further expansion into niche areas. </i><br><B>| call for | go for, look for </B><I>We are going for maximum expansion. </i><br><B>| encourage, facilitate, promote | impede, limit, restrict | halt, stop | prevent | embark on | finance, fund </B><I>In order to finance expansion on this scale, the government has relied heavily on borrowing. </i><br> </P> <P> <U> EXPANSION + VERB </U><B> occur, take place </B> </P> <P> <U> EXPANSION + NOUN </U><B> plan, programme </B> </P> <P> <U> PREP. </U><B> ~ into </B><I>expansion into the luxury car market </i><br><B>| ~ in </B><I>a great age of expansion in trade and science </i><br> </P> <P> <U> PHRASES </U><B> a period of expansion </B><I>a period of rapid economic expansion </i><br><B>| the rate of expansion </B><I>The rate of expansion of our overseas trade has been spectacular. </i><br><B>| potential/room/scope/space for expansion </B><I>The company believes there is scope for expansion in this sector. </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "B,TK*j@cx<",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "516",
+                "strengthen",
+                "",
+                "<P> <U> ADV. </U> </P> <P> <U> VERB + STRENGTHEN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<P> <U> ADV. </U><B> considerably, enormously, greatly, immeasurably, significantly, substantially </B><I>The success in the election strengthened the party's position considerably. </i><br><B>| further </B><I>This merger will further strengthen the company and ensure its continued success. </i><br><B>| merely </B><I>This temporary setback merely strengthened her resolve. </i><br><B>| gradually </B> </P> <P> <U> VERB + STRENGTHEN </U><B> help (to), serve to | be designed to </B><I>These exercises are designed to strengthen your stomach muscles. </i><br> </P> <P> <U> PREP. </U><B> against </B><I>The euro has strengthened against the dollar. </i><br> </P> <P> <U> PHRASES </U><B> an attempt/effort to strengthen sth, be aimed at strengthening sth </B><I>The new law is aimed at strengthening protective measures for workers. </i><br><B>| measures to strengthen sth</B> </P>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "l4a3*2%K+%",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "517",
+                "simultaneously",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DWI<sFqqUh",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "520",
+                "incentive",
+                "",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + INCENTIVE </U> </P> <P> <U> INCENTIVE + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<P> <U> ADJ. </U><B> big, considerable, great, massive | powerful, strong | adequate, sufficient | main, major | added, additional, extra, more | less | real | direct </B><I>The most direct financial incentive to prevent rubbish is to charge people by the amount of rubbish they put out. </i><br><B>| important | positive | special | commercial, economic, financial, fiscal, monetary | cash | price, tax | sales | work | government </B> </P> <P> <U> VERB + INCENTIVE </U><B> act as, be </B><I>He argues that the free supply of skilled labour will act as an incentive for employees to be more diligent. </i><br><B>| have </B><I>She had the added incentive of being within reach of the world record. </i><br><B>| need | give (sb/sth), offer (sb/sth), provide (sb/sth with) | create </B><I>The government has created tax incentives to encourage investment. </i><br><B>| increase | reduce | undermine </B><I>High taxation rates have undermined work incentives. </i><br><B>| remove </B> </P> <P> <U> INCENTIVE + NOUN </U><B> programme, scheme, system </B><I>The company operates a share incentive scheme for its workers. </i><br><B>| payment </B> </P> <P> <U> PREP. </U><B> ~ to </B><I>an incentive to investment </i><br> </P> <P> <U> PHRASES </U><B> have every incentive </B><I>The absence of penalties for anti-competitive behaviour means that firms have every incentive to engage in price-fixing. </i><br><B>| a lack of incentive </B><I>Low levels of profitability mean there is a lack of incentive to undertake new investment. </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "ky,@}RW772",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "266.1.2",
+                "instrumental",
+                "being only a means to an end",
+                "<p> <u> VERBS </u></p>\n<p> <u> ADV. </u></p>",
+                "<p> <u> VERBS </u><b> be </b> </p>\n<p> <u> ADV. </u><b> very | purely | merely | essentially</b> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "N.1wUx;IOR",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "*",
+                "釆",
+                "Fährten",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HeW1){PWnX",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "*",
+                "宅",
+                "Locke",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dCG*K||K-G",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "*",
+                "為",
+                "Schwanzfedern",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Hhe$^KFoa{",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "*",
+                "畏",
+                "Haarspange",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uo|+Yamf`V",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "203.1",
+                "complex",
+                "",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV.</u></p>",
+                "<p> <u> VERBS </u><b> be, look, seem, sound | become </b> </p> <p> <u> ADV. </u><b> enormously, especially, exceedingly, exceptionally, extraordinarily, extremely, highly, hugely, immensely, incredibly, infinitely, particularly, very </b><i>This is a highly complex matter. </i><br><br><b>| increasingly | fairly, quite, rather, relatively, somewhat | surprisingly | unnecessarily | technically </b><i>technically complex surgery </i><br><br> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "F!WUfve?m^",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "209.1",
+                "estimate",
+                "",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + ESTIMATE </u> </p> <p> <u> ESTIMATE + VERB </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> ADJ. </u><b> official, unofficial | current, recent </b><i>Current estimates suggest that supplies will run out within six months. </i><br><b>| early, initial, preliminary | accurate, fair, good, realistic, reasonable, reliable | best </b><i>Flight times in the brochure are based on our best estimate, and will be confirmed as soon as possible. </i><br><b>| approximate, rough | conservative, low </b><i>I think 15,000 will turn out to be a very low estimate. </i><br><b>| high </b><i>According to the highest estimate, over 100,000 men died in the battle. </i><br><b>| optimistic, pessimistic | cost </b> </p> <p> <u> VERB + ESTIMATE </u><b> make </b><i>Can you make an estimate of the numbers involved? </i><br><b>| give (sb), provide (sb with), submit </b><i>Three firms submitted estimates for the work. </i><br><b>| revise </b> </p> <p> <u> ESTIMATE + VERB </u><b> be based on sth | indicate sth, predict sth, show sth, suggest sth </b><i>One estimate suggests that 30,000 jobs may be lost. </i><br><b>| put sth at </b><i>Some estimates put the figure as high as 50%. </i><br><b>| range, vary </b><i>Cost estimates vary from $50,000 to $200,000. </i><br> </p> <p> <u> PREP. </u><b> according to an/the ~ </b><i>According to the revised estimate, four million people will be without homes. </i><br><b>| at an ~ </b><i>Even at a conservative estimate, there is a lot of work to be done. </i><br><b>| in an/the ~ </b><i>In his first estimate, he suggested a figure of </i>£<i>5,000. </i><br><b>| ~ by, ~ from </b><i>According to an estimate by a leading newspaper, she earns </i>£<i>40 million a year. </i><br><b>| ~ for </b><i>We will send you an estimate for the repairs. </i><br><b>| ~ of </b><i>an estimate of profits an estimate of </i>£<i>300 </i><br> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "PZ)5RI/2FX",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "210.1.1",
+                "negative",
+                "only thinking about/showing sb/sth's bad qualities",
+                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
+                "<p> <u> VERBS </u><b> be, feel, seem, sound | become | remain </b> </p> <p> <u> ADV. </u><b> distinctly, extremely, strongly, terribly, very </b><i>the strongly negative implications of these survey results. Their attitude was terribly negative. </i><br><b>| completely, entirely, exclusively, purely, totally, wholly </b><i>She spoke in entirely negative terms. </i><br><b>| largely, mainly, overwhelmingly | fairly, rather, slightly, somewhat | apparently | essentially </b><i>Critical thinking is essentially negative as it seeks to dissect and not to build. </i><br><b>| generally </b> </p> <p> <u> PREP. </u><b> about </b><i>He's been rather negative about the idea. </i><br> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "wlQ^T~iYJ*",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "210.1.2",
+                "negative",
+                "showing that sth has not happened/been found",
+                "<P> <U> VERBS </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> VERBS </U><B> be, prove, test </B><I>The breathalyser test proved negative. He tested negative for HIV infection. </i><br> </P> <P> <U> PREP. </U><B> for </B><I>The urine tests were negative for protein. </i><br> </P>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "nl*$#rWH$(",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "213.1.3",
+                "challenge",
+                "invitation to compete",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + CHALLENGE </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> ADJ. </u><b> leadership, title </b><i>his title challenge to the heavyweight champion </i><br> </p> <p> <u> VERB + CHALLENGE </u><b> issue, mount </b><i>plans to mount a leadership challenge within the party </i><br><b>| accept, take up </b><i>I accepted his challenge to a game of chess. </i><br><b>| beat off, fight off </b><i>Our team will have to fight off the challenge from better trained teams. </i><br> </p> <p> <u> PREP. </u><b> ~ from </b><i>a challenge from the other political party </i><br> </p> ",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "yj?<R*g>/N",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "214.1",
+                "principle",
+                "basic general rule",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + PRINCIPLE </u> </p> <p> <u> PRINCIPLE + VERB </u> </p> <p> <u> PREP. </u> </p>",
+                "<p> <u> ADJ. </u><b> basic, broad, central, fundamental, general </b><i>the basic principles of car maintenance </i><br><br><b>| cardinal, essential, key | universal | democratic, legal, market, political, scientific, theoretical </b> </p> <p> <u> VERB + PRINCIPLE </u><b> establish, formulate, lay down | apply | explain </b> </p> <p> <u> PRINCIPLE + VERB </u><b> apply </b><i>This principle applies to all kinds of selling. </i><br><br><b>| underlie sth, underpin sth </b><i>the principles underlying Western philosophy </i><br><br> </p> <p> <u> PREP. </u><b> in ~ </b><i>I agree with you in principle, but we'll need to discuss the details. </i><br><br><b>| ~ behind </b><i>She went on to explain the principles behind what she was doing. </i><br><br> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "nR0)64t2,U",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "217.1",
+                "depend",
+                "be affected by sth",
+                "<p> <u> ADV. </u> </p> <p> <u> VERB + DEPEND </u> </p>",
+                "<p> <u> ADV. </u><b> crucially, greatly, very much </b><i>The future of the company will depend crucially on how consumers respond. </i><br><br><b>| entirely, solely | largely, mainly | partly, rather, to some extent | ultimately </b><i>Whether or not we can go ultimately depends on the weather. </i><br><br> </p> <p> <u> VERB + DEPEND </u><b> seem to </b><i>The outcome seems to depend on the type of soil used. </i><br><br> </p>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "vT|WNRti$>",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "217.2",
+                "depend",
+                "need",
+                "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
+                "<p> <u> ADV. </u><b> heavily | entirely, solely </b> </p> <p> <u> PREP. </u><b> for </b><i>She depends entirely on her parents for money. </i><br><br> </p>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "JETPY~jW_G",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "219",
+                "integration",
+                "",
+                "<p> <u> ADJ. </u> </p> <p> <u> QUANT. </u> </p> <p> <u> VERB + INTEGRATION </u> </p> <p> <u> PREP. </u> </p> <p> <u> PHRASES</u></p>",
+                "<p> <u> ADJ. </u><b> true | complete, full | close, seamless | further, greater, improved, increased | rapid | economic, monetary, political, racial, social </b><i>We are working to bring about closer political integration in the EU. </i><br><br><b>| internal | systems </b><i>(computing) </i><br><br> </p> <p> <u> QUANT. </u><b> degree, level </b> </p> <p> <u> VERB + INTEGRATION </u><b> achieve, bring about | accelerate, encourage, facilitate, promote, speed up, stimulate </b><i>measures to promote the social integration of mentally handicapped people </i><br><br><b>| require | lead to </b> </p> <p> <u> PREP. </u><b> ~ between </b><i>integration between research and higher education </i><br><br><b>| ~ into </b><i>the integration of disabled pupils into the general education system </i><br><br><b>| ~ with </b><i>He called for greater integration with Europe. </i><br><br><b>| ~ within </b><i>economic integration within the three communities </i><br><br> </p> <p> <u> PHRASES </u><b> a move towards integration </b><i>a move towards greater internal integration in Europe </i><br><br><b>| a need for integration, a process of integration</b></p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "Mk_`|vQKaN",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "227.1",
+                "explore",
+                "<div>travel around an area&nbsp;</div>",
+                "<p><u>VERB + EXPLORE</u><br></p> <p> <u> PREP.</u></p>",
+                "<p> <u> VERB + EXPLORE </u><b> be keen to, want to, wish to | be free to </b><i>In the afternoon you'll be free to explore a little on your own. </i><br><br> </p>\n<p> <u> PREP. </u><b> for </b><i>exploring for oil </i><br><br> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "NY5_l.ayO5",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "238.1.2",
+                "basis",
+                "principle/reason",
+                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> whole </B> </P> <P> <U> PREP. </U><B> on the ~ of </B><I>We made our decision on the basis of the information we had. </i><br><B>| ~ for </B><I>The whole basis for your argument is false. </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "ku,XEYgKww",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "238.1.3",
+                "basis",
+                "way sth is done/organized",
+                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> regular | daily, monthly, weekly, etc. </B><I>Staff are employed on a monthly basis. </i><br><B>| permanent, temporary | casual, part-time, voluntary | commercial </B> </P> <P> <U> PREP. </U><B> on a &hellip; ~</B> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "hHJjjOw`!*",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "238.2.2",
+                "basis",
+                "principle/reason",
+                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> whole </B> </P> <P> <U> PREP. </U><B> on the ~ of </B><I>We made our decision on the basis of the information we had. </i><br><B>| ~ for </B><I>The whole basis for your argument is false. </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "cZ?}w@k=+F",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "238.2.3",
+                "basis",
+                "way sth is done/organized",
+                "<P> <U> ADJ. </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> regular | daily, monthly, weekly, etc. </B><I>Staff are employed on a monthly basis. </i><br><B>| permanent, temporary | casual, part-time, voluntary | commercial </B> </P> <P> <U> PREP. </U><B> on a &hellip; ~</B> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "FocAK:q~[n",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "261",
+                "encourage",
+                "",
+                "<P> <U> ADV. </U> </P> <P> <U> VERB + ENCOURAGE </U> </P> <P> <U> PREP. </U> </P>",
+                "<p> <u> ADV. </u><b> greatly, strongly </b><i>We were greatly encouraged by the support we received. </i><br><br><b>| actively, positively </b><i>The government must actively encourage investment in these areas. </i><br><br> </p> <p> <u> VERB + ENCOURAGE </u><b> aim to | try to | be designed to </b><i>These questions are designed to encourage debate. </i><br><br><b>| be likely to </b><i>Newspapers should not publish material that is likely to encourage discrimination on the grounds of race or colour. </i><br><br> </p> <p> <u> PREP. </u><b> in </b><i>Her head of department encouraged her in her research work. </i><br><br> </p>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "FRp#]&+/jl",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "282.2.2",
+                "advance",
+                "development",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ADVANCE </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> big, considerable, dramatic, enormous, great, spectacular, substantial, tremendous | important, major, notable, remarkable, significant | rapid, steady </B><I>rapid advances in science and technology </i><br><B>| recent | economic, educational, medical, political, scientific, social, technical, technological | theoretical </B> </P> <P> <U> VERB + ADVANCE </U><B> make </B><I>We need more money if we are to make any further advances in this area of science. </i><br> </P> <P> <U> PREP. </U><B> in ~ </B><I>two major advances in orthopaedic medicine </i><br><B>| on ~ </B><I>an advance on the existing techniques </i><br><B>| towards ~ </B><I>an advance towards a better understanding of God </i><br> </P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "Cx5M*Kkv/*",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "282.2.3",
+                "advance",
+                "money",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + ADVANCE </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> large | cash </B> </P> <P> <U> VERB + ADVANCE </U><B> give, pay </B><I>The publishers have paid me an advance. </i><br><B>| get, receive </B> </P> <P> <U> PREP. </U><B> ~ of </B><I>an advance of </i><br>&pound;</B><I>10,000 </i><br><B>| ~ on </B><I>He was paid </i><br>&pound;</B><I>5,000 as an advance on royalties. </i><br></P>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "M~VDeAayTX",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "282.3.2",
+                "advance",
+                "develop",
+                "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADV. </U><B> considerably, greatly, significantly | rapidly </B> </P> <P> <U> PREP. </U><B> beyond </B><I>Society needs to advance beyond prejudice and superstition. </i><br> </P>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "G3[_@CCah0",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "295.2",
+                "content",
+                "",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> VERBS </u><b> appear, be, feel, seem </b> </p>\n<p> <u> ADV. </u><b> perfectly, quite, utterly </b><i>I'm perfectly content just to lie in the sun. </i><br><br><b>| fairly, reasonably, relatively | apparently | curiously, strangely </b><i>She felt curiously content. </i><br><br> </p>\n<p> <u> PREP. </u><b> with </b><i>She seemed quite content with the idea. </i><br><br> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "v}7kY;!`{;",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "301.1",
+                "difficult",
+                "",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV.</u></p>",
+                "<p> <u> VERBS </u><b> be, look, prove, seem, sound | become, get </b><i>It is getting more and more difficult to find a job. </i><br><br><b>| make sth </b><i>The fog made driving very difficult. </i><br><br><b>| find sth </b> </p>\n<p> <u> ADV. </u><b> exceedingly, extraordinarily, extremely, incredibly, particularly, really, very | doubly </b><i>Her disability made taking care of the home and raising a family doubly difficult. </i><br><br><b>| increasingly | a bit, quite, rather | notoriously </b><i>Birth rates are notoriously difficult to predict. </i><br><br> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "le%^(7KTe*",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "301.2",
+                "difficulty",
+                "",
+                "<p><u>ADJ.</u><br></p> <p> <u> QUANT. </u> </p> <p> <u> VERB + DIFFICULTY </u> </p> <p> <u> DIFFICULTY + VERB </u> </p> <p> <u> PREP. </u> </p>",
+                "<p> <u> ADJ. </u><b> considerable, enormous, grave, great, major, real, serious, severe </b><i>We had enormous difficulty in getting hold of the right equipment. </i><br><br><b>| insurmountable | increasing </b><i>questions of increasing difficulty </i><br><br><b>| inherent </b><i>the difficulties inherent in treating overdose patients </i><br><br><b>| particular, special </b><i>English spelling presents special difficulties for foreign learners. </i><br><br><b>| economic, financial | practical, technical </b><i>I think we've managed to overcome most of the practical difficulties. </i><br><br><b>| behavioural, emotional, learning </b><i>children with learning difficulties </i><br><br> </p> <p> <u> QUANT. </u><b> level </b><i>The games have various different levels of difficulty. </i><br><br> </p> <p> <u> VERB + DIFFICULTY </u><b> encounter, experience, face, get into, have, run into </b><i>Among the difficulties encountered was a lack of cooperation on the part of the authorities. Anyone experiencing difficulty with radio reception should call us on the new helpline. Let me know if you have any difficulties. I had little difficulty in persuading the others to come. The scheme has run into serious difficulties. </i><br><br><b>| cause, create, make, present </b><i>Will it cause any difficulties if I go early? She is always making difficulties for herself. </i><br><br><b>| cope with, deal with, overcome, resolve, solve, surmount | avoid </b><i>how to avoid technical difficulties </i><br><br><b>| be fraught with </b><i>The situation was fraught with difficulty. </i><br><br> </p> <p> <u> DIFFICULTY + VERB </u><b> arise, crop up </b><i>Difficulties arise when people fail to consult their colleagues. </i><br><br><b>| lie (in sth) </b><i>The difficulty lies in identifying the precise nature of the problem. </i><br><br> </p> <p> <u> PREP. </u><b> despite a/the ~ </b><i>Despite all the difficulties, he still remains optimistic. </i><br><br><b>| in ~ </b><i>We could see that the swimmer was in difficulties. </i><br><br><b>| with/without ~ </b><i>We crossed the border without any difficulty. Life in the city was not without its difficulties. </i><br><br><b>| ~ in </b><i>She had difficulty in starting her car. </i><br><br><b>| ~ of </b><i>the difficulty of finding affordable accommodation </i><br><br><b>| ~ with </b><i>having difficulty with the engine </i><br><br> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "L8Mm_r=1i*",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "328",
+                "industrial",
+                "",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + INDUSTRIAL ACTION </U> </P> <P> <U> PREP. </U> </P>",
+                "<P> <U> ADJ. </U><B> continuing | unlawful </B> </P> <P> <U> VERB + INDUSTRIAL ACTION </U><B> take | threaten | call for | vote for | start | step up </B><I>The union is considering stepping up its industrial action. </i><br><B>| suspend | stop | take part in, be/become involved in </B><I>His research indicates an increase in the number of women involved in industrial action. </i><br><B>| support </B> </P> <P> <U> PREP. </U><B> ~ against </B><I>The union is threatening industrial action against the company. </i><br><B>| ~ by </B><I>industrial action by railway workers </i><br><B>| ~ in support of </B><I>industrial action in support of demands for a ten per cent salary adjustment </i><br><B>| ~ over </B><I>to take industrial action over pay </i><br> </P>",
+                "industrial action"
+            ],
+            "flags": 0,
+            "guid": "p3hb-`Gb()",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "329.3",
+                "revolution",
+                "movement around sth; one complete turn",
+                "<P> <U> ADJ. </U> </P> <P> <U> VERB + REVOLUTION </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<p> <u> ADJ. </u><b> complete, full </b><i>One full revolution of the knob will open the hatch. </i><br><br> </p> <p> <u> VERB + REVOLUTION </u><b> make </b> </p> <p> <u> PREP. </u><b> through a ~ </b><i>The earth turns through one complete revolution approximately every twenty-four hours. </i><br><br><b>| ~ about/around/round </b><i>How long does it take for the planet Jupiter to make a complete revolution around the sun? </i><br><br> </p> <p> <u> PHRASES </u><b> revolutions a/per minute </b></p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "bMjCd,5,?d",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "330.1",
+                "fundamental",
+                "",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> VERBS </u><b> be, seem | remain | consider sth, regard sth as </b><i>We consider these freedoms fundamental to democracy. </i><br><br> </p> <p> <u> ADV. </u><b> truly, very | absolutely, quite </b><i>This principle is clear and absolutely fundamental. </i><br><br><b>| fairly, rather </b> </p> <p> <u> PREP. </u><b> to </b><i>Improved funding is fundamental to the success of the project. </i><br><br> </p> <p> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "kTu=AU[owS",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "330.2",
+                "fundamentals",
+                "",
+                "<p><u>ADJ.</u><br></p> <p> <u> VERB + FUNDAMENTALS </u> </p>",
+                "<u> ADJ. </u><b> basic | very </b><i>The new law strikes at the very fundamentals of a free press. </i><br><br>  <p> <u> VERB + FUNDAMENTALS </u><b> teach | grasp, learn, master </b><i>We quickly mastered the basic fundamentals of navigation. </i><br><br><b>| go back to, return to </b><i>The government went back to fundamentals, concentrating on avoiding food shortages. </i><br><br> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "cdXvK.x(!B",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "331.1",
+                "essential",
+                "",
+                "<p> <u> VERBS </u> </p> <p> <u> ADV. </u> </p> <p> <u> PREP.</u></p>",
+                "<p> <u> VERBS </u><b> appear, be, seem | become </b><i>It is becoming almost essential for students to have a second language. </i><br><br><b>| remain | make sth </b><i>Increased competition makes it essential for the business to innovate. </i><br><br><b>| consider sth, deem sth, regard sth as, see sth as, think sth </b><i>Do you consider these textbooks essential for the course? </i><br><br> </p> <p> <u> ADV. </u><b> really | absolutely | almost, virtually | fairly | by no means </b><i>Although useful, the accessories are by no means essential. </i><br><br> </p> <p> <u> PREP. </u><b> for </b><i>the skills essential for success </i><br><br><b>| to </b><i>He believed that some form of religion was essential to human life. </i><br><br> </p>",
+                "adj."
+            ],
+            "flags": 0,
+            "guid": "BSmrj?!8Ex",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "331.2",
+                "essentials",
+                "",
+                "<p><u>ADJ.</u><br></p> <p> <u> VERB + ESSENTIALS </u> </p>",
+                " <p> <u> ADJ. </u><b> bare, basic </b><i>the bare essentials for existence </i><br><br> </p> <p> <u> VERB + ESSENTIALS </u><b> grasp </b><i>Just try and grasp the essentials of the argument. </i><br><br><b>| provide </b><i>The relief agencies are trying to provide food and other basic essentials. </i><br><br><b>| concentrate on </b><i>Don't let's worry about the details at this stage. Let's concentrate on the essentials. </i><br><br> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "HjBt<xs|DU",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "333.3",
+                "contact",
+                "",
+                "<p> <u> ADV. </u></p>\n<p> <u> PHRASES </u></p>",
+                "<p> <u> ADV. </u><b> immediately | directly | personally | by email, by phone/telephone </b><i>He can be contacted by phone on the telephone number given below. </i><br><br> </p>\n<p> <u> PHRASES </u><b> do not hesitate to contact sb </b><i>Please do not hesitate to contact me if you have any questions. </i><br><br> </p>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "sW`a^9sZ4(",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "336.2",
+                "account",
+                "account for sth",
+                "<p><u>ADV.</u><br></p>",
+                "<p> <u> ADV. </u><b> fully </b><i>The increase can be fully accounted for. </i><br><br><b>| partly </b><i>The differences in achievement between the pupils are partly accounted for by differences in age. </i><br><br> </p>",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "B,jk`a^~)#",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "343.1",
+                "philosophy",
+                "study of ideas about the meaning of life",
+                "<P> <U> ADJ. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<p> <u> ADJ. </u><b> ancient, classical | contemporary, modern | Eastern, Western | experimental, moral, natural </b><i>(historical)</i><br><br>, <b>political, religious, social </b> </p> <p> <u> PHRASES </u><b> the philosophy of history/religion/science </b> <br><a href=\"http://www.ozdic.com/collocation-dictionary/philosophy#\">More information about SUBJECT</a> </p>",
+                "noun"
+            ],
+            "flags": 0,
+            "guid": "r!=u#=z@Nc",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "381.1.2",
+                "assert",
+                "make other people recognize your rights/authority\nwhat a company owns",
+                "<p> <u> ADV. </u> </p>\n<p> <u> VERB + ASSERT</u></p>",
+                "<p> <u> ADV. </u><b> successfully </b><i>They successfully asserted their right to protect their homes. </i><br><br> </p> <p> <u> VERB + ASSERT </u><b> need to | be determined to, wish to </b><i>She wished to assert her independence from her parents. </i><br><br><b>| seek to, try to | be able to, manage to </b><i>He managed to assert his power over the media. </i><br><br><b>| be unable to, fail to</b> </p> ",
+                "verb"
+            ],
+            "flags": 0,
+            "guid": "Oo/lIN0M_:",
+            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "401",
                 "planning",
                 "",
@@ -5688,54 +5976,6 @@
             ],
             "flags": 0,
             "guid": "c/k#=1rBwg",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "405.1.1",
-                "professional",
-                "connected with a job",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P>",
-                "<P> <U> VERBS </U><B> be </B> </P> <P> <U> ADV. </U><B> purely, strictly </B><I>He insisted that his relationship with the duchess was purely professional. </i><br> </P>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "c[vye[ktQ}",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "405.1.2",
-                "professional",
-                "extremely skilled",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P>",
-                "<P> <U> VERBS </U><B> be, look </B><I>Their designs look very professional. </i><br> </P> <P> <U> ADV. </U><B> extremely, highly, really, truly, very </B><I>He dealt with the problem in a highly professional way. </i><br><B>| thoroughly | increasingly | almost | quite, rather </B> </P>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "QwAzE?_R|G",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "405.1.3",
-                "professional",
-                "done as a paid job, not a hobby",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P>",
-                "<P> <U> VERBS </U><B> be | become, turn </B> </P> <P> <U> ADV. </U><B> fully </B><I>He wants to turn fully professional. </i><br> </P>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "LAp;Gh?SGV",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -6799,38 +7039,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "447.1",
-                "conventional",
-                "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> QUANT. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> CONVENTION + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "",
-                "<DIV class=\"item\"><P class=\"word\"><B>conventional </B><I>adj</I> </P>"
-            ],
-            "flags": 0,
-            "guid": "Q:@$,9gG3$",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "447.2",
-                "conventional",
-                "",
-                "<P> <U> VERBS </U> </P> <P> <U> ADV. </U> </P> <P> <U> ADJ. </U> </P> <P> <U> QUANT. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> CONVENTION + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P> <P> <U> ADJ. </U> </P> <P> <U> VERB + CONVENTION </U> </P> <P> <U> CONVENTION + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "o3KXxQdu+z",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "448.1",
                 "index",
                 "list of names/topics in a book",
@@ -7647,22 +7855,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "471.2.1",
-                "shape",
-                "physical outline",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + SHAPE </U> </P> <P> <U> SHAPE + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> basic, simple </B><I>The children cut the paper into various simple shapes. </i><br><B>| characteristic, distinctive </B><I>I recognized the distinctive shape of a Boeing-747. </i><br><B>| curious, interesting, unusual, weird | awkward </B><I>The desk was an awkward shape and wouldn't fit through the door. </i><br><B>| original | geometric/geometrical, regular, symmetrical | complex | asymmetrical, irregular | odd, random </B><I>tiles of random shape </i><br><B>| solid, three-dimensional | aerodynamic | angular, arch, circular, cone/conical, cylindrical, diamond, dome, egg, elliptical, elongated, hemispherical, hexagonal, oblong, pentagonal, pointed, pyramid/pyramidal, rectangular, round, spherical, triangular, wedge | rounded, smooth | arrow, banana, cross, pear, star, T, etc. </B><I>The road forms an L shape. The bruise was a sort of mushroom shape. </i><br><B>| blurred, ghostly, shadowy, vague | huge, massive | black, dark, grey | human | body </B><I>You can't change your natural body shape. </i><br> </P> <P> <U> VERB + SHAPE </U><B> cut out, draw, make, trace </B><I>First draw the rough shape of your chosen animal. Fold the paper to make the shape of a cone. </i><br><B>| cut sth into, make sth in, produce sth in </B><I>a cheese similar to Brie but produced in a different shape </i><br><B>| come in, have </B><I>Tables come in various shapes. </i><br><B>| assume, make, take on </B><I>Ordinary things assumed different shapes in the mist. </i><br><B>| keep, retain </B><I>These garments will retain their shape even with repeated washing. </i><br><B>| regain | change | lose | distort </B><I>The wide-angle lens distorts shapes. </i><br><B>| distinguish, make out, see </B><I>I could just make out the shapes of animals in the field. </i><br> </P> <P> <U> SHAPE + VERB </U><B> appear, emerge, loom </B><I>Ghostly shapes loomed out of the fog. </i><br> </P> <P> <U> PREP. </U><B> in the ~ of </B><I>a doormat in the shape of a cat </i><br> </P> <P> <U> PHRASES </U><B> out of shape </B><I>The bicycle had been battered out of shape. </i><br><B>| oblong/rectangular/hexagonal, etc. in shape </B><I>The island is roughly circular in shape. </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "PF{u<s2]c$",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "471.2.2",
                 "shape",
                 "structure/nature of sth",
@@ -7672,22 +7864,6 @@
             ],
             "flags": 0,
             "guid": "f)LhW`{<w.",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "471.2.3",
-                "shape",
-                "good or bad condition",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + SHAPE </U> </P>",
-                "<P> <U> ADJ. </U><B> fine, good, great | bad, poor | physical </B><I>He's 64, but he's in better physical shape than I am. </i><br> </P> <P> <U> VERB + SHAPE </U><B> get sb/sth into, knock/lick/whip sb/sth into </B><I>Get your body into shape for the summer! Leave the boy with me?I'll soon knock him into shape! </i><br><B>| be in, keep in, stay in </B><I>You are in pretty good shape for your age. She likes to stay in shape. </i><br><B>| be out of</B> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "AFUv#8/Ta2",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -8447,22 +8623,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "503.1.3",
-                "guide",
-                "person",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + GUIDE </U> </P>",
-                "<P> <U> ADJ. </U><B> tour, tourist </B><I>Our tour guide showed us around the old town. </i><br> </P> <P> <U> VERB + GUIDE </U><B> act as, be </B><I>He agreed to go with them and act as their guide. </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "Z7e$5yx?!",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "503.1.4",
                 "guide",
                 "book for tourists",
@@ -8504,22 +8664,6 @@
             ],
             "flags": 0,
             "guid": "K)4zVwC&Wr",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "503.2.3",
-                "guide",
-                "help sb move",
-                "<P> <U> ADV. </U> </P> <P> <U> PREP. </U> </P>",
-                "<P> <U> ADV. </U><B> gently </B><I>He took her arm, gently guiding her. </i><br> </P> <P> <U> PREP. </U><B> across, along, etc. </B><I>She guided him across the busy road. </i><br><B>| to/towards </B><I>He guided her hand to his face. </i><br> </P>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "uZNC%bT2Yx",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -8799,54 +8943,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "515",
-                "expansion",
-                "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + EXPANSION </U> </P> <P> <U> EXPANSION + VERB </U> </P> <P> <U> EXPANSION + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> big, considerable, enormous, great, huge, major, massive, significant, substantial, vast </B><I>The company was now set for major expansion. </i><br><B>| maximum | dramatic, marked, remarkable, unprecedented </B><I>an unprecedented expansion in linguistic studies at British universities </i><br><B>| rapid | gradual | steady | continued, further, sustained | eastward, westward, etc. | global, international, overseas, worldwide | successful | aggressive </B><I>The board decided to embark on aggressive overseas expansion. </i><br><B>| healthy | planned, proposed | uncontrolled | business, commercial, company | economic, industrial | colonial, imperial, territorial | population | urban </B> </P> <P> <U> VERB + EXPANSION </U><B> show </B><I>The economy is still showing healthy expansion. </i><br><B>| allow (for), provide for </B><I>The design of the front pockets allows for expansion. </i><br><B>| be ripe for </B><I>a ready-made hotel chain ripe for further expansion </i><br><B>| be set for </B><I>The company is set for further expansion into niche areas. </i><br><B>| call for | go for, look for </B><I>We are going for maximum expansion. </i><br><B>| encourage, facilitate, promote | impede, limit, restrict | halt, stop | prevent | embark on | finance, fund </B><I>In order to finance expansion on this scale, the government has relied heavily on borrowing. </i><br> </P> <P> <U> EXPANSION + VERB </U><B> occur, take place </B> </P> <P> <U> EXPANSION + NOUN </U><B> plan, programme </B> </P> <P> <U> PREP. </U><B> ~ into </B><I>expansion into the luxury car market </i><br><B>| ~ in </B><I>a great age of expansion in trade and science </i><br> </P> <P> <U> PHRASES </U><B> a period of expansion </B><I>a period of rapid economic expansion </i><br><B>| the rate of expansion </B><I>The rate of expansion of our overseas trade has been spectacular. </i><br><B>| potential/room/scope/space for expansion </B><I>The company believes there is scope for expansion in this sector. </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "B,TK*j@cx<",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "516",
-                "strengthen",
-                "",
-                "<P> <U> ADV. </U> </P> <P> <U> VERB + STRENGTHEN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADV. </U><B> considerably, enormously, greatly, immeasurably, significantly, substantially </B><I>The success in the election strengthened the party's position considerably. </i><br><B>| further </B><I>This merger will further strengthen the company and ensure its continued success. </i><br><B>| merely </B><I>This temporary setback merely strengthened her resolve. </i><br><B>| gradually </B> </P> <P> <U> VERB + STRENGTHEN </U><B> help (to), serve to | be designed to </B><I>These exercises are designed to strengthen your stomach muscles. </i><br> </P> <P> <U> PREP. </U><B> against </B><I>The euro has strengthened against the dollar. </i><br> </P> <P> <U> PHRASES </U><B> an attempt/effort to strengthen sth, be aimed at strengthening sth </B><I>The new law is aimed at strengthening protective measures for workers. </i><br><B>| measures to strengthen sth</B> </P>",
-                "verb"
-            ],
-            "flags": 0,
-            "guid": "l4a3*2%K+%",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "517",
-                "simultaneously",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "flags": 0,
-            "guid": "DWI<sFqqUh",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "518",
                 "possess",
                 "",
@@ -8872,22 +8968,6 @@
             ],
             "flags": 0,
             "guid": "p[0._=|:gL",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "520",
-                "incentive",
-                "",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + INCENTIVE </U> </P> <P> <U> INCENTIVE + NOUN </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
-                "<P> <U> ADJ. </U><B> big, considerable, great, massive | powerful, strong | adequate, sufficient | main, major | added, additional, extra, more | less | real | direct </B><I>The most direct financial incentive to prevent rubbish is to charge people by the amount of rubbish they put out. </i><br><B>| important | positive | special | commercial, economic, financial, fiscal, monetary | cash | price, tax | sales | work | government </B> </P> <P> <U> VERB + INCENTIVE </U><B> act as, be </B><I>He argues that the free supply of skilled labour will act as an incentive for employees to be more diligent. </i><br><B>| have </B><I>She had the added incentive of being within reach of the world record. </i><br><B>| need | give (sb/sth), offer (sb/sth), provide (sb/sth with) | create </B><I>The government has created tax incentives to encourage investment. </i><br><B>| increase | reduce | undermine </B><I>High taxation rates have undermined work incentives. </i><br><B>| remove </B> </P> <P> <U> INCENTIVE + NOUN </U><B> programme, scheme, system </B><I>The company operates a share incentive scheme for its workers. </i><br><B>| payment </B> </P> <P> <U> PREP. </U><B> ~ to </B><I>an incentive to investment </i><br> </P> <P> <U> PHRASES </U><B> have every incentive </B><I>The absence of penalties for anti-competitive behaviour means that firms have every incentive to engage in price-fixing. </i><br><B>| a lack of incentive </B><I>Low levels of profitability mean there is a lack of incentive to undertake new investment. </i><br> </P>",
-                "noun"
-            ],
-            "flags": 0,
-            "guid": "ky,@}RW772",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
@@ -8984,22 +9064,6 @@
             ],
             "flags": 0,
             "guid": "Q%cnTw6!^d",
-            "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "266.1.2",
-                "instrumental",
-                "being only a means to an end",
-                "<p> <u> VERBS </u></p>\n<p> <u> ADV. </u></p>",
-                "<p> <u> VERBS </u><b> be </b> </p>\n<p> <u> ADV. </u><b> very | purely | merely | essentially</b> </p>",
-                "adj."
-            ],
-            "flags": 0,
-            "guid": "N.1wUx;IOR",
             "note_model_uuid": "1d40ef02-c9ff-11ea-ab22-9cb6d013a4a3",
             "tags": []
         },
