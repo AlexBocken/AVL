@@ -9,7 +9,9 @@ A heavy focus is set on cognates and collocations for each word family, not just
 
 ## How to use/import
 
-You can easily import this deck via either the avilable `AVL.apkg` or CrowdAnki. (Information for the latter see below)
+You can easily import this deck via either the avilable `AVL.apkg` or CrowdAnki.
+(Information for the latter see below)
+The apkg files can be found in the ['Releases' section](https://github.com/AlexBocken/AVL/releases) of this github.
 
 I'm using Anki as my vocab program with the Addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) to export in a diff-friendly json-file. You can easily add it to your Anki setup via the code given on [its AnkiWeb page](https://ankiweb.net/shared/info/1788670778).
 
