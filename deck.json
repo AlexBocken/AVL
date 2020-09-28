@@ -498,9 +498,9 @@
                 "212",
                 "typically",
                 "",
-                "",
-                "",
-                ""
+                "<p><u>TYPICALLY + VERB</u></p>\n<p><u>PREP.</u></p>\n<p><u>PHRASES.</u></p>\n",
+                "<p><u>TYPICALLY + VERB</u><b> have, do, used, developing</b></p>\n<p><u>PREP.</u><b>&nbsp;~ in </b></p><p><u>PHRASES.</u><b> typicially associated with, typically found in, typically thought of as</b></p>",
+                "adv."
             ],
             "flags": 0,
             "guid": "zDsLQz?n6b",
@@ -658,9 +658,9 @@
                 "216",
                 "ethnic",
                 "",
-                "",
-                "",
-                ""
+                "<p><u>ETHNIC + NOUN</u></p>\n<p><u>ETHNIC + VERB </u></p>\n<p><u>ADJ. </u></p>\n<p><u>ADV.</u></p>\n",
+                "<p><u>ETHNIC + NOUN</u><b> group, cleansing, identity, minority, diversity, background, deadlock </b><i> Ethnic cleansing has resulted in some of the largest mass murders in world history. </i></p>\n<p><u>ETHNIC + VERB </u><b> belong, divide, dominate, differ, reinforce, comprise</b></p>\n<p><u>ADJ. </u><b> racial, religious, different, cultural, political, regional, various </b><i>Many different ethnic and religous groups can be found in the Middle East.</i></p>\n<p><u>ADV.</u><b>largely, regardless, predominantely, historically, disproportionately, exclusively</b></p>",
+                "adj."
             ],
             "flags": 0,
             "guid": "yy9;MG{:s|",
@@ -882,7 +882,7 @@
                 "229.1",
                 "future",
                 "time that will come after the present",
-                "<P> <U> ADJ. </U> </P> <P> <U> VERB + FUTURE </U> </P> <P> <U> FUTURE + VERB </U> </P> <P> <U> PREP. </U> </P> <P> <U> PHRASES </U> </P>",
+                "<p> <u> ADJ. </u> </p> <p> <u> VERB + FUTURE </u> </p> <p> <u> FUTURE + VERB </u> </p> <p> <u> PREP. </u> </p> <p> <u> PHRASES </u> </p>",
                 "<p> <u> ADJ. </u><b> foreseeable, immediate, near, not-too-distant </b><i>Things will continue as they are for the foreseeable future. A new branch of the shop will be opening in the near future. </i><br><b>| distant, remote </b> </p> <p> <u> VERB + FUTURE </u><b> look to, plan for </b><i>Don't think too much about past troubles? look to the future. </i><br><b>| foretell, look into, predict </b> </p> <p> <u> FUTURE + VERB </u><b> bring (sb), hold </b><i>whatever the future may bring you;</i><i>&nbsp;Who can tell what the future holds?&nbsp;</i></p> <p> <u> PREP. </u><b> for the ~ </b><i>What are your plans for the future? </i><br><b>| in (the) ~ </b><i>In future, employees will park their vehicles away from the works entrance. The possibility of travel to other solar systems still lies in the distant future. </i><br><b>| of the ~ </b><i>The stars of the future are competing in the world junior athletics championships this month. </i><br> </p> <p> <u> PHRASES </u><b> a vision for/of the future </b><i>In her speech, the director outlined her vision for the future. </i><br> </p>",
                 "noun"
             ],
