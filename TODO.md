@@ -1,7 +1,5 @@
 | no.  | word           |
 | ---- | -------        |
-| 212  | typically      |
-| 216  | ethnic         |
 | 241  | regarding      |
 | 242  | european       |
 | 268  | construct      |
